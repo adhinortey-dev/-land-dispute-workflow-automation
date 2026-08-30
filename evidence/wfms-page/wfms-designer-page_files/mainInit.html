@@ -1,0 +1,1993 @@
+<!DOCTYPE html>
+<!-- saved from url=(0105)http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190 -->
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="./font-awesome.min.css">
+    <!-- translations -->
+    <script type="text/javascript" src="./translationsMafe.js.download"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="./mafe-bd462bc9-f6b5445a.css">
+    <link rel="stylesheet" type="text/css" href="./neoclassic-pm3.css">
+        <link rel="stylesheet" type="text/css" href="./fonts.css">
+    <link rel="stylesheet" type="text/css" href="./styles.php">
+    <script type="text/javascript">
+        var prj_uid = "27544921766757a332a78c0043908190";
+        var app_uid = "";
+        var consolidated = "0";
+        var enterprise = "0";
+        var prj_readonly = "false";
+        var credentials = "eyJhY2Nlc3NfdG9rZW4iOiI4ZmQ0YTljOWFhOTYxYWY3YzkzYWEyOWZhMTFiN2UwNDA2MTZlNTBlIiwiZXhwaXJlc19pbiI6ODY0MDAsInRva2VuX3R5cGUiOiJiZWFyZXIiLCJzY29wZSI6InZpZXdfcHJvY2Vzc2VzIGVkaXRfcHJvY2Vzc2VzICoiLCJyZWZyZXNoX3Rva2VuIjoiOTMyMWJhODAyZmE4ODcxOTk0YmEyZTY5MDZhMjg3NmEwNTRmYjUxMSIsImNsaWVudF9pZCI6IngtcG0tbG9jYWwtY2xpZW50IiwiY2xpZW50X3NlY3JldCI6IjE3OWFkNDVjNmNlMmNiOTdjZjEwMjllMjEyMDQ2ZTgxIn0=";
+        var distribution = "0";
+        var SYS_SYS = "wfms";
+        var SYS_LANG = "en";
+        var SYS_SKIN = "neoclassic";
+        var HTTP_SERVER_HOSTNAME = "http://owsgip.itc.utwente.nl:9090";
+        var PMDYNAFORM_FIRST_TIME = "1" === "1";
+        var maxFileSizeInformation = {"uploadMaxFileSize":"24 Mbytes","uploadMaxFileSizeBytes":25165824,"uploadMaxFileSizeMBytes":24,"uploadMaxFileSizeUnit":"MB"};
+        var tcPdfFonts = "Cormorant Garamond=cormorantgaramond;Courier New=courier new,courier;Gentium Book Basic=gentiumbookbasic;Grandstander=grandstander;Helvetica=helvetica;Inconsolata=inconsolata;Josefin Sans=josefinsans;Lato=lato;Montserrat=montserrat;Noto Serif=notoserif;Open Sans=opensans;Quicksand=quicksand;Times New Roman=times new roman,times";
+    </script>
+    <script type="text/javascript" src="./mafe-bd462bc9-f6b5445a.js.download"></script>
+    
+
+<style type="text/css">.lf-progress {
+  -webkit-appearance: none;
+  -moz-apperance: none;
+  width: 100%;
+  /* margin: 0 10px; */
+  height: 4px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.lf-progress:focus {
+  outline: none;
+  border: none;
+}
+.lf-progress::-moz-range-track {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+}
+.lf-progress::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-moz-range-thumb {
+  -moz-appearance: none !important;
+  height: 13px;
+  width: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress::-ms-track {
+  width: 100%;
+  height: 3px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.lf-progress::-ms-fill-lower {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-fill-upper {
+  background: #ccc;
+  border-radius: 3px;
+}
+.lf-progress::-ms-thumb {
+  border: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #0fccce;
+  cursor: pointer;
+}
+.lf-progress:focus::-ms-fill-lower {
+  background: #ccc;
+}
+.lf-progress:focus::-ms-fill-upper {
+  background: #ccc;
+}
+.lf-player-container :focus {
+  outline: 0;
+}
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-player-btn-container {
+  display: flex;
+  align-items: center;
+}
+.lf-player-btn {
+  cursor: pointer;
+  fill: #999;
+  width: 14px;
+}
+
+.lf-player-btn.active {
+  fill: #555;
+}
+
+.lf-popover {
+  position: relative;
+}
+
+.lf-popover-content {
+  display: inline-block;
+  position: absolute;
+  background-color: #ffffff;
+  opacity: 1;
+
+  transform: translate(0, -10px);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  padding: 10px;
+}
+
+.lf-popover-content.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(0, 0px);
+}
+
+.lf-arrow {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  bottom: -9px;
+  border-style: solid;
+  border-width: 10px 10px 0px 10px;
+}
+
+.lf-left-align,
+.lf-left-align .lfarrow {
+  left: 0;
+  right: unset;
+}
+
+.lf-right-align,
+.lf-right-align .lf-arrow {
+  right: 0;
+  left: unset;
+}
+
+.lf-text-input {
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  padding: 3px;
+  width: 60px;
+  margin: 0;
+}
+
+.lf-color-picker {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.lf-color-selectors {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lf-color-component {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lf-color-component strong {
+  width: 40px;
+}
+
+.lf-color-component input[type='range'] {
+  margin: 0 0 0 10px;
+}
+
+.lf-color-component input[type='number'] {
+  width: 50px;
+  margin: 0 0 0 10px;
+}
+
+.lf-color-preview {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+
+.lf-preview {
+  height: 60px;
+  width: 60px;
+}
+
+.lf-popover-snapshot {
+  width: 150px;
+}
+.lf-popover-snapshot h5 {
+  margin: 5px 0 10px 0;
+  font-size: 0.75rem;
+}
+.lf-popover-snapshot a {
+  display: block;
+  text-decoration: none;
+}
+.lf-popover-snapshot a:before {
+  content: '⥼';
+  margin-right: 5px;
+}
+.lf-popover-snapshot .lf-note {
+  display: block;
+  margin-top: 10px;
+  color: #999;
+}
+.lf-player-controls > div {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.lf-player-controls > div:first-child {
+  margin-left: 0px;
+}
+.lf-player-controls > div:last-child {
+  margin-right: 0px;
+}
+</style></head>
+<body onresize="resizingFrame();" style="cursor: default; overflow: auto;">
+<!--<div class="ui-layout-north">-->
+     <div class="loader" style="display: none;"></div>
+     <section class="navBar" id="idNavBar" style="display: block; height: 33px;">
+        
+        <nav>
+            <ul id="idNavBarList">
+
+            <li id="closeButton"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/return;" class="mafe-close"><span class="mafe-button-close" title=""></span></a></li><li id="helpButton"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/return;" class="mafe-help"><span class="mafe-toolbar-help" title=""></span></a></li><li id="saveButton" class="mafe-save-process" style="background-color: rgb(232, 232, 232); color: rgb(0, 0, 0);"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/return;" class="mafe-button-save" title="" style="color: rgb(0, 0, 0);">Save</a><span class="mafe-button-menu" style="background-color: rgb(232, 232, 232);"><img src="./caret-down.png"></span></li><li id="exportButton"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/return;" class="mafe-button-export-process" title="">Export Process</a></li><li id="exportBpmnButton"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/return;" class="mafe-button-export-bpmn-process" title="">Export Diagram</a></li><li id="zoomOptions"><span class="mafe-zoom-options" title="Zoom"><select id="_idListZoom" class="pmui pmui-dropdownlistcontrol mafe-dropdown-zoom" name="_idListZoom" style="left: 0px; top: 0px; width: auto; height: 30px; position: relative; z-index: auto;"><option value="1" label="50%">50%</option><option value="2" label="75%">75%</option><option value="3" label="100%">100%</option><option value="4" label="125%">125%</option><option value="5" label="150%">150%</option></select></span></li><li id="undoButton" class="mafe-undo"><b class="mafe-action-undo" title=""><span class="mafe-button-undo"></span></b></li><li id="redoButton" class="mafe-redo"><b class="mafe-action-redo" title=""><span class="mafe-button-redo"></span></b></li><li id="fullScreenButton"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/return;" class="mafe-button-fullscreen" title=""></a></li></ul>
+        </nav>
+
+    <h2>s2781980_dispute</h2></section>
+    <div class="bpmn_shapes ui-draggable" style="display: block;">
+    <ul id="pmui-70956495766780ae9d26e91031135772" class="pmui pmui-toolbarpanel" style="left: 0px; top: 0px; width: 96%; height: auto; position: relative; z-index: auto; box-sizing: border-box; overflow: visible;"><li id="TASK" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-task" style="cursor: move;"></a></li><li id="SUB_PROCESS" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-subprocess" style="cursor: move;"></a></li></ul><ul id="pmui-38360894366780ae9d26eb2083630343" class="pmui pmui-toolbarpanel" style="left: 0px; top: 0px; width: 96%; height: auto; position: relative; z-index: auto; box-sizing: border-box; overflow: visible;"><li id="EXCLUSIVE" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-gateway-exclusive" style="cursor: move;"></a></li><li id="PARALLEL" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-gateway-parallel" style="cursor: move;"></a></li><li id="INCLUSIVE" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-gateway-inclusive" style="cursor: move;"></a></li></ul><ul id="pmui-42712115566780ae9d26ed6002863272" class="pmui pmui-toolbarpanel" style="left: 0px; top: 0px; width: 96%; height: auto; position: relative; z-index: auto; box-sizing: border-box; overflow: visible;"><li id="START" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-start" style="cursor: move;"></a></li><li id="START_TIMER" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-event-start-timer" style="cursor: move;"></a></li><li id="INTERMEDIATE_EMAIL" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-intermediate-send-mesage" style="cursor: move;"></a></li><li id="INTERMEDIATE_TIMER" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-event-intermediate-timer" style="cursor: move;"></a></li><li id="END" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-end" style="cursor: move;"></a></li><li id="END_EMAIL" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-end-message" style="cursor: move;"></a></li></ul><ul id="pmui-37794313266780ae9d26ef6006725454" class="pmui pmui-toolbarpanel" style="left: 0px; top: 0px; width: 96%; height: auto; position: relative; z-index: auto; box-sizing: border-box; overflow: visible;"><li id="DATAOBJECT" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-data-object" style="cursor: move;"></a></li><li id="DATASTORE" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-data-store" style="cursor: move;"></a></li></ul><ul id="pmui-79590093366780ae9d26f11024721252" class="pmui pmui-toolbarpanel" style="left: 0px; top: 0px; width: 96%; height: auto; position: relative; z-index: auto; box-sizing: border-box; overflow: visible;"><li id="PARTICIPANT" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-blackbox" style="cursor: move;"></a></li><li id="POOL" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-pool" style="cursor: move;"></a></li><li id="LANE" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-lane" style="cursor: move;"></a></li></ul><ul id="pmui-26543387466780ae9d26f33089898779" class="pmui pmui-toolbarpanel" style="left: 0px; top: 0px; width: 96%; height: auto; position: relative; z-index: auto; box-sizing: border-box; overflow: visible;"><li id="GROUP" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-group" style="cursor: move;"></a></li><li id="TEXT_ANNOTATION" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-annotation" style="cursor: move;"></a></li></ul><ul id="pmui-24587445366780ae9d26f51019859466" class="pmui pmui-toolbarpanel" style="left: 0px; top: 0px; width: 96%; height: auto; position: relative; z-index: auto; box-sizing: border-box; overflow: visible;"><li id="LASSO" class="mafe-toolbarpanel-btn ui-draggable ui-draggable-handle"><a title="" class="mafe-designer-icon mafe-toolbar-lasso" style="cursor: move; background-color: rgb(233, 233, 233);"></a></li></ul><ul id="pmui-12112912266780ae9d26f77062247699" class="pmui pmui-toolbarpanel" style="left: 0px; top: 0px; width: 96%; height: auto; position: relative; z-index: auto; box-sizing: border-box; overflow: visible;"><li class="mafe-toolbarpanel-switch"><label class="tgl-label">Auto Save</label><input type="checkbox" id="enableAutosave" class="tgl tgl-light"><label for="enableAutosave" class="tgl-btn"></label></li></ul></div>
+<!--</div>-->
+<div id="p-center-layout" style="display: block;">
+    <!--BODY-->
+    <div class="ui-layout-center tab-content" id="div-layout-canvas">
+    <div id="13377010566780ae9d274a2018179567" class="pmui ui-droppable" style="overflow: hidden; position: absolute; left: 0px; top: 77px; width: 6000px; height: 6000px; z-index: 0;"><div id="pmui-61738167466780ae9d274c9055445829" class="pmui pmui-multipleselectioncontainer ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled ui-droppable" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; z-index: 3; background-color: rgba(0, 128, 255, 0.1); display: none;"></div><div id="pmui-69677077566780ae9d27554046853800" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-97642577066780ae9d27580015170910" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-57289543566780ae9d275b0009034084" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-75820191366780ae9d275e4039110469" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-81405757066780ae9d27614055538651" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-57152869866780ae9d27649046227662" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-24168801166780ae9d27670098953811" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-32592380366780ae9d276a1070324627" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-38248409566780ae9d276d3038652258" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-77696850266780ae9d27723025825617" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-17081610366780ae9d27752040660950" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-72025277966780ae9d27798010441188" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-37413670066780ae9d277c9092208151" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-11141756466780ae9d277f4030976939" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-45573671366780ae9d27839026654941" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-45192569666780ae9d27862068939189" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-61880504966780ae9d27893001819479" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-49533770766780ae9d278c6063910302" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-75362229266780ae9d27904092325654" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-79843274366780ae9d27930069538175" class="pmui pmui-pmconnecthandler dragConnectHandler" style="display: none; position: absolute; left: 100px; top: 100px; width: 10px; height: 10px; z-index: 104;"></div><div id="pmui-89521429066780ae9d27976076771988" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-17290564966780ae9d279a5026638877" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-94279126866780ae9d279e1067262467" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-11382449866780ae9d27a22087550021" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-68032755066780ae9d27a52025797821" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-18677809366780ae9d27a85089631490" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-93944187466780ae9d27ac1084013964" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-23236295766780ae9d27af6072489519" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-34919149466780ae9d27b20087319250" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-74873133966780ae9d27b54047761085" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-79164861566780ae9d27b80043467213" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-20776043966780ae9d27bb1001302847" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-75805907666780ae9d27be4048581539" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-48381014266780ae9d27c20085152325" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-64149080366780ae9d27c53023987982" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-87945247966780ae9d27ca6096197836" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-14075949966780ae9d27cd1075111433" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-78328997166780ae9d27d09035487637" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-95042823966780ae9d27d39054629626" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="pmui-84426776266780ae9d27d76007500613" class="pmui pmui-pmconnecthandler dropConnectHandler" style="display: none; position: absolute; left: 400px; top: 100px; width: 10px; height: 10px; z-index: 101;"></div><div id="35029297166757afbc94e64098796688" class="pmui pmui-pmpool mafe-pool custom_shape ui-draggable ui-draggable-handle ui-resizable ui-droppable" style="position: absolute; left: 476px; top: 290px; width: 939px; height: 855px; z-index: 4;"><div id="nw35029297166757afbc94e64098796688resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-nw" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="ne35029297166757afbc94e64098796688resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-ne" style="position: absolute; left: 936px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="se35029297166757afbc94e64098796688resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-se" style="position: absolute; left: 936px; top: 852px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="sw35029297166757afbc94e64098796688resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-sw" style="position: absolute; left: -3px; top: 852px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="n35029297166757afbc94e64098796688resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-n" style="position: absolute; left: 467px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="e35029297166757afbc94e64098796688resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-e" style="position: absolute; left: 936px; top: 425px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="s35029297166757afbc94e64098796688resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-s" style="position: absolute; left: 467px; top: 852px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="w35029297166757afbc94e64098796688resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-w" style="position: absolute; left: -3px; top: 425px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="35029297166757afbc94e64098796688Layer-first-layer" class="pmui pmui-layer" style="position: absolute; left: 0px; top: 0px; width: 939px; height: 855px; z-index: 1;"></div><div id="35029297166757afbc94e64098796688Layer-second-layer" class="pmui pmui-layer" style="display: none; position: absolute; left: 0px; top: 0px; width: 939px; height: 855px; z-index: 1;"></div><div id="pmui-92220984966780ae9d27f20071143713" class="pmui pmui-label rotateText" style="position: absolute; left: -412px; top: 417px; width: 855px; height: 21px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span title="Land Dispute Agency" style="width: auto; height: auto; line-height: 20px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; margin-left: 2%; display: block;">Land Dispute Agency</span><input style="width: 200px; position: absolute; display: none; left: 0px;"></div><div style="font-size: 0px;"><div style="position:absolute;left:40px;top:0px;width:2px;height:852px;clip:rect(0,2px,852px,0);background-color:#3b4753;overflow:hidden;"></div></div><div id="18705456166757afbd34860042546982" class="pmui pmui-pmlane custom_shape ui-draggable ui-draggable-handle ui-resizable ui-droppable" style="position: absolute; left: 40px; top: 0px; width: 899px; height: 201px; z-index: 5;"><div id="nw18705456166757afbd34860042546982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-nw" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="ne18705456166757afbd34860042546982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-ne" style="position: absolute; left: 896px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="se18705456166757afbd34860042546982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-se" style="position: absolute; left: 896px; top: 198px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="sw18705456166757afbd34860042546982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-sw" style="position: absolute; left: -3px; top: 198px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="n18705456166757afbd34860042546982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-n" style="position: absolute; left: 447px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="e18705456166757afbd34860042546982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-e" style="position: absolute; left: 896px; top: 98px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="s18705456166757afbd34860042546982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-s" style="position: absolute; left: 447px; top: 198px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="w18705456166757afbd34860042546982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-w" style="position: absolute; left: -3px; top: 98px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="18705456166757afbd34860042546982Layer-first-layer" class="pmui pmui-layer" style="position: absolute; left: 0px; top: 0px; width: 899px; height: 201px; z-index: 1;"></div><div id="pmui-16993534966780aead28243061307739" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled rotateText" style="position: absolute; left: -80px; top: 90px; width: 201px; height: 21px; z-index: 1; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;">Public</span><input style="width: 200px; position: absolute; display: none; left: 0px;"></div><div id="48986650066757b9bcf02b4018587145" class="pmui pmui-pmactivity custom_shape ui-draggable ui-draggable-handle ui-resizable ui-droppable" style="position: absolute; left: 189px; top: 79px; width: 151px; height: 75px; z-index: 6;"><div id="nw48986650066757b9bcf02b4018587145resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-nw" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="ne48986650066757b9bcf02b4018587145resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-ne" style="position: absolute; left: 148px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="se48986650066757b9bcf02b4018587145resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-se" style="position: absolute; left: 148px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="sw48986650066757b9bcf02b4018587145resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-sw" style="position: absolute; left: -3px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="n48986650066757b9bcf02b4018587145resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-n" style="position: absolute; left: 73px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="e48986650066757b9bcf02b4018587145resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-e" style="position: absolute; left: 148px; top: 35px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="s48986650066757b9bcf02b4018587145resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-s" style="position: absolute; left: 73px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="w48986650066757b9bcf02b4018587145resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-w" style="position: absolute; left: -3px; top: 35px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="48986650066757b9bcf02b4018587145Layer-first-layer" class="pmui pmui-layer mafe-activity-task" style="position: absolute; left: 0px; top: 0px; width: 151px; height: 75px; z-index: 1;"></div><div id="48986650066757b9bcf02b4018587145Layer-second-layer" class="pmui pmui-layer" style="display: none; position: absolute; left: 0px; top: 0px; width: 151px; height: 75px; z-index: 1;"></div><div id="pmui-61560221466780aead298f8080891148" class="pmui pmui-label" style="position: absolute; left: 8px; top: 27px; width: 135px; height: 21px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;">Filing a Complaint</span><input style="width: 130px; position: absolute; display: none;"></div><div id="pmui-86239136866780aead29907089342315" class="undefined" style="position: absolute; left: 4px; top: 4px; width: 21px; height: 21px; z-index: 1;"></div><div id="pmui-79943613866780aead29918034402701" class="undefined" style="position: absolute; left: 65px; top: 50px; width: 21px; height: 21px; z-index: 1;"></div><div id="pmui-41754008666780aead29929060046869" class="PMVAlidatorMarker" style="position: absolute; left: 139px; top: 0px; width: 12px; height: 12px; z-index: 1; visibility: hidden;"><div id="pmui-34318336966780aead29930041255019" class="pmui pmui-markeritem" style="position: relative; left: 0px; top: 0px; width: 14px; height: 14px; z-index: 1;"></div></div><div id="pmui-20196801866780aead2c7f2007242572" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: -5px; top: 33px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-61468413466780aead2c804062444924" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div><div id="pmui-17812397366780aead2d392043520889" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: 71px; top: 70px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-73115563966780aead2d3b7045123581" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div></div><div id="26240649866757ee4097cb7047615812" class="pmui pmui-pmevent mafe-event-end custom_shape ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled ui-droppable" style="position: absolute; left: 692px; top: 123px; width: 33px; height: 33px; z-index: 6;"><div id="nw26240649866757ee4097cb7047615812resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="ne26240649866757ee4097cb7047615812resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: 30px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="se26240649866757ee4097cb7047615812resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: 30px; top: 30px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="sw26240649866757ee4097cb7047615812resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: -3px; top: 30px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="26240649866757ee4097cb7047615812Layer-first-layer" class="pmui pmui-layer mafe-event-end-terminatethrow-33" style="position: absolute; left: 0px; top: 0px; width: 33px; height: 33px; z-index: 1;"></div><div id="26240649866757ee4097cb7047615812Layer-second-layer" class="pmui pmui-layer" style="display: none; position: absolute; left: 0px; top: 0px; width: 33px; height: 33px; z-index: 1;"></div><div id="pmui-76488315266780aead2b9a5001474948" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled" style="position: absolute; left: -28px; top: 42px; width: 89px; height: 1px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;"></span><input style="width: 200px; position: absolute; display: none;"></div><div id="pmui-71598438766780aead2b9b7031245690" class="PMVAlidatorMarker" style="position: absolute; left: 21px; top: 0px; width: 12px; height: 12px; z-index: 1; visibility: hidden;"><div id="pmui-95941150166780aead2b9c8050675026" class="pmui pmui-markeritem" style="position: relative; left: 0px; top: 0px; width: 14px; height: 14px; z-index: 1;"></div></div><div id="pmui-74638421966780aead2d0e1086052722" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: 12px; top: 28px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-19681782066780aead2d0f5019331572" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div></div><div id="59216340366757ee4011179094657154" class="pmui pmui-pmevent mafe-event-end custom_shape ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled ui-droppable" style="position: absolute; left: 553px; top: 119px; width: 33px; height: 33px; z-index: 6;"><div id="nw59216340366757ee4011179094657154resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="ne59216340366757ee4011179094657154resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: 30px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="se59216340366757ee4011179094657154resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: 30px; top: 30px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="sw59216340366757ee4011179094657154resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: -3px; top: 30px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="59216340366757ee4011179094657154Layer-first-layer" class="pmui pmui-layer mafe-event-end-email-33" style="position: absolute; left: 0px; top: 0px; width: 33px; height: 33px; z-index: 1;"></div><div id="59216340366757ee4011179094657154Layer-second-layer" class="pmui pmui-layer" style="display: none; position: absolute; left: 0px; top: 0px; width: 33px; height: 33px; z-index: 1;"></div><div id="pmui-39068214666780aead2bd31020780264" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled" style="position: absolute; left: -28px; top: 42px; width: 89px; height: 1px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;"></span><input style="width: 200px; position: absolute; display: none;"></div><div id="pmui-59793671166780aead2bd48096505188" class="PMVAlidatorMarker" style="position: absolute; left: 21px; top: 0px; width: 12px; height: 12px; z-index: 1; visibility: hidden;"><div id="pmui-89207577766780aead2bd58023483571" class="pmui pmui-markeritem" style="position: relative; left: 0px; top: 0px; width: 14px; height: 14px; z-index: 1;"></div></div><div id="pmui-44776855966780aead2d215013937554" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: 12px; top: 28px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-40939980966780aead2d229027035232" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div></div><div id="63569963966757aabd3ee96049881089" class="pmui pmui-pmevent mafe-event-start custom_shape ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled ui-droppable" style="position: absolute; left: 111px; top: 100px; width: 33px; height: 33px; z-index: 6;"><div id="nw63569963966757aabd3ee96049881089resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="ne63569963966757aabd3ee96049881089resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: 30px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="se63569963966757aabd3ee96049881089resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: 30px; top: 30px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="sw63569963966757aabd3ee96049881089resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: -3px; top: 30px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="63569963966757aabd3ee96049881089Layer-first-layer" class="pmui pmui-layer mafe-event-start-empty-33" style="position: absolute; left: 0px; top: 0px; width: 33px; height: 33px; z-index: 1;"></div><div id="63569963966757aabd3ee96049881089Layer-second-layer" class="pmui pmui-layer" style="display: none; position: absolute; left: 0px; top: 0px; width: 33px; height: 33px; z-index: 1;"></div><div id="pmui-72031077266780aead2c0f3005259299" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled" style="position: absolute; left: -28px; top: 42px; width: 89px; height: 1px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;"></span><input style="width: 200px; position: absolute; display: none;"></div><div id="pmui-69763805666780aead2c101090486398" class="PMVAlidatorMarker" style="position: absolute; left: 21px; top: 0px; width: 12px; height: 12px; z-index: 1; visibility: hidden;"><div id="pmui-61656386466780aead2c119025956352" class="pmui pmui-markeritem" style="position: relative; left: 0px; top: 0px; width: 14px; height: 14px; z-index: 1;"></div></div><div id="pmui-59372152066780aead2c7b4098349197" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: 28px; top: 12px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-56607038566780aead2c7d5099458582" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div></div></div><div id="43287453066757afbdbc232012293454" class="pmui pmui-pmlane custom_shape ui-draggable ui-draggable-handle ui-resizable ui-droppable" style="position: absolute; left: 40px; top: 200px; width: 899px; height: 201px; z-index: 5; border-top: 2px solid rgb(59, 71, 83);"><div id="nw43287453066757afbdbc232012293454resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-nw" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="ne43287453066757afbdbc232012293454resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-ne" style="position: absolute; left: 896px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="se43287453066757afbdbc232012293454resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-se" style="position: absolute; left: 896px; top: 198px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="sw43287453066757afbdbc232012293454resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-sw" style="position: absolute; left: -3px; top: 198px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="n43287453066757afbdbc232012293454resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-n" style="position: absolute; left: 447px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="e43287453066757afbdbc232012293454resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-e" style="position: absolute; left: 896px; top: 98px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="s43287453066757afbdbc232012293454resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-s" style="position: absolute; left: 447px; top: 198px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="w43287453066757afbdbc232012293454resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-w" style="position: absolute; left: -3px; top: 98px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="43287453066757afbdbc232012293454Layer-first-layer" class="pmui pmui-layer" style="position: absolute; left: 0px; top: 0px; width: 899px; height: 201px; z-index: 1;"></div><div id="pmui-68569176566780aead284b9087178812" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled rotateText" style="position: absolute; left: -80px; top: 90px; width: 201px; height: 21px; z-index: 1; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;">Client Service</span><input style="width: 200px; position: absolute; display: none; left: 0px;"></div><div id="78571504266757b9bdc8037020745103" class="pmui pmui-pmactivity custom_shape ui-draggable ui-draggable-handle ui-resizable ui-droppable" style="position: absolute; left: 300px; top: 14px; width: 151px; height: 75px; z-index: 6;"><div id="nw78571504266757b9bdc8037020745103resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-nw" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="ne78571504266757b9bdc8037020745103resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-ne" style="position: absolute; left: 148px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="se78571504266757b9bdc8037020745103resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-se" style="position: absolute; left: 148px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="sw78571504266757b9bdc8037020745103resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-sw" style="position: absolute; left: -3px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="n78571504266757b9bdc8037020745103resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-n" style="position: absolute; left: 73px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="e78571504266757b9bdc8037020745103resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-e" style="position: absolute; left: 148px; top: 35px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="s78571504266757b9bdc8037020745103resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-s" style="position: absolute; left: 73px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="w78571504266757b9bdc8037020745103resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-w" style="position: absolute; left: -3px; top: 35px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="78571504266757b9bdc8037020745103Layer-first-layer" class="pmui pmui-layer mafe-activity-task" style="position: absolute; left: 0px; top: 0px; width: 151px; height: 75px; z-index: 1;"></div><div id="78571504266757b9bdc8037020745103Layer-second-layer" class="pmui pmui-layer" style="display: none; position: absolute; left: 0px; top: 0px; width: 151px; height: 75px; z-index: 1;"></div><div id="pmui-35427884666780aead2acd5063099247" class="pmui pmui-label" style="position: absolute; left: 8px; top: 17px; width: 135px; height: 41px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;">Preliminary Assessment</span><input style="width: 130px; position: absolute; display: none;"></div><div id="pmui-13041054466780aead2ace5038413078" class="undefined" style="position: absolute; left: 4px; top: 4px; width: 21px; height: 21px; z-index: 1;"></div><div id="pmui-97202581166780aead2acf7037386789" class="undefined" style="position: absolute; left: 65px; top: 50px; width: 21px; height: 21px; z-index: 1;"></div><div id="pmui-89329028766780aead2ad05043177226" class="PMVAlidatorMarker" style="position: absolute; left: 139px; top: 0px; width: 12px; height: 12px; z-index: 1; visibility: hidden;"><div id="pmui-65960320666780aead2ad19074099076" class="pmui pmui-markeritem" style="position: relative; left: 0px; top: 0px; width: 14px; height: 14px; z-index: 1;"></div></div><div id="pmui-36052476766780aead2cdb0047670434" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: 71px; top: 70px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-16820417966780aead2cdc9012331723" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div><div id="pmui-86659178266780aead2d3c5050724352" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: 71px; top: -5px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-68126307966780aead2d3d2011956935" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div></div><div id="91048814466757bc3e1fdc4073364642" class="pmui pmui-pmactivity custom_shape ui-draggable ui-draggable-handle ui-resizable ui-droppable" style="position: absolute; left: 543px; top: 106px; width: 151px; height: 75px; z-index: 6;"><div id="nw91048814466757bc3e1fdc4073364642resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-nw" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="ne91048814466757bc3e1fdc4073364642resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-ne" style="position: absolute; left: 148px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="se91048814466757bc3e1fdc4073364642resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-se" style="position: absolute; left: 148px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="sw91048814466757bc3e1fdc4073364642resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-sw" style="position: absolute; left: -3px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="n91048814466757bc3e1fdc4073364642resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-n" style="position: absolute; left: 73px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="e91048814466757bc3e1fdc4073364642resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-e" style="position: absolute; left: 148px; top: 35px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="s91048814466757bc3e1fdc4073364642resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-s" style="position: absolute; left: 73px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="w91048814466757bc3e1fdc4073364642resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-w" style="position: absolute; left: -3px; top: 35px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="91048814466757bc3e1fdc4073364642Layer-first-layer" class="pmui pmui-layer mafe-activity-task" style="position: absolute; left: 0px; top: 0px; width: 151px; height: 75px; z-index: 1;"></div><div id="91048814466757bc3e1fdc4073364642Layer-second-layer" class="pmui pmui-layer" style="display: none; position: absolute; left: 0px; top: 0px; width: 151px; height: 75px; z-index: 1;"></div><div id="pmui-97485298766780aead2b398013163000" class="pmui pmui-label" style="position: absolute; left: 8px; top: 17px; width: 135px; height: 41px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;">Prepare a Recommendation</span><input style="width: 130px; position: absolute; display: none;"></div><div id="pmui-58591995066780aead2b3b8020889839" class="undefined" style="position: absolute; left: 4px; top: 4px; width: 21px; height: 21px; z-index: 1;"></div><div id="pmui-50627598666780aead2b3c6046615988" class="undefined" style="position: absolute; left: 65px; top: 50px; width: 21px; height: 21px; z-index: 1;"></div><div id="pmui-66714256866780aead2b3d5035297367" class="PMVAlidatorMarker" style="position: absolute; left: 139px; top: 0px; width: 12px; height: 12px; z-index: 1; visibility: hidden;"><div id="pmui-10986103166780aead2b3e2008781029" class="pmui pmui-markeritem" style="position: relative; left: 0px; top: 0px; width: 14px; height: 14px; z-index: 1;"></div></div><div id="pmui-94408364366780aead2cc50056701725" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: -5px; top: 33px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-21705121366780aead2cc77059557999" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div><div id="pmui-97864847166780aead2d1f8042068710" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: 71px; top: -5px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-63343624666780aead2d209007285699" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div></div><div id="115824969667610f6798375029903099" class="pmui pmui-pmgateway custom_shape ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled ui-droppable" style="position: absolute; left: 355px; top: 122px; width: 41px; height: 41px; z-index: 6;"><div id="nw115824969667610f6798375029903099resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="ne115824969667610f6798375029903099resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: 38px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="se115824969667610f6798375029903099resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: 38px; top: 38px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="sw115824969667610f6798375029903099resizehandler" class="pmui pmui-resizehandler" style="position: absolute; left: -3px; top: 38px; width: 4px; height: 4px; z-index: 123; background-color: rgb(255, 255, 255); border: 1px solid black; display: none;"></div><div id="115824969667610f6798375029903099Layer-first-layer" class="pmui pmui-layer mafe-gateway-exclusive-41" style="position: absolute; left: 0px; top: 0px; width: 41px; height: 41px; z-index: 1;"></div><div id="115824969667610f6798375029903099Layer-second-layer" class="pmui pmui-layer" style="display: none; position: absolute; left: 0px; top: 0px; width: 41px; height: 41px; z-index: 1;"></div><div id="pmui-90286064566780aead2c4d8049670402" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled" style="position: absolute; left: -35px; top: 50px; width: 111px; height: 1px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;"></span><input style="width: 200px; position: absolute; display: none;"></div><div id="pmui-80301496666780aead2c4e9074275761" class="PMVAlidatorMarker" style="position: absolute; left: 29px; top: 0px; width: 12px; height: 12px; z-index: 1; visibility: hidden;"><div id="pmui-53046585966780aead2c504006126293" class="pmui pmui-markeritem" style="position: relative; left: 0px; top: 0px; width: 14px; height: 14px; z-index: 1;"></div></div><div id="pmui-82072978166780aead2cc39072590258" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: 36px; top: 16px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-90653274266780aead2cc44021289170" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div><div id="pmui-49427573966780aead2cdd7014596561" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: 16px; top: -5px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-65711718566780aead2cde9098201270" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div><div id="pmui-18755829366780aead2d533059140456" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: 16px; top: 36px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-45855237266780aead2d542036450732" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div></div></div><div id="58173778266757afbe3c671067287982" class="pmui pmui-pmlane custom_shape ui-draggable ui-draggable-handle ui-resizable ui-droppable" style="position: absolute; left: 40px; top: 400px; width: 899px; height: 255px; z-index: 5; border-top: 2px solid rgb(59, 71, 83);"><div id="nw58173778266757afbe3c671067287982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-nw" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="ne58173778266757afbe3c671067287982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-ne" style="position: absolute; left: 896px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="se58173778266757afbe3c671067287982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-se" style="position: absolute; left: 896px; top: 252px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="sw58173778266757afbe3c671067287982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-sw" style="position: absolute; left: -3px; top: 252px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="n58173778266757afbe3c671067287982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-n" style="position: absolute; left: 447px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="e58173778266757afbe3c671067287982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-e" style="position: absolute; left: 896px; top: 125px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="s58173778266757afbe3c671067287982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-s" style="position: absolute; left: 447px; top: 252px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="w58173778266757afbe3c671067287982resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-w" style="position: absolute; left: -3px; top: 125px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="58173778266757afbe3c671067287982Layer-first-layer" class="pmui pmui-layer" style="position: absolute; left: 0px; top: 0px; width: 899px; height: 255px; z-index: 1;"></div><div id="pmui-34879153066780aead286f4032181152" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled rotateText" style="position: absolute; left: -107px; top: 117px; width: 255px; height: 21px; z-index: 1; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;">Data Processing</span><input style="width: 200px; position: absolute; display: none; left: 0px;"></div><div id="38293786666757bebdc6cf1044593311" class="pmui pmui-pmactivity custom_shape ui-draggable ui-draggable-handle ui-resizable ui-droppable" style="position: absolute; left: 84px; top: 92px; width: 151px; height: 75px; z-index: 6;"><div id="nw38293786666757bebdc6cf1044593311resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-nw" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="ne38293786666757bebdc6cf1044593311resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-ne" style="position: absolute; left: 148px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="se38293786666757bebdc6cf1044593311resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-se" style="position: absolute; left: 148px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="sw38293786666757bebdc6cf1044593311resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-sw" style="position: absolute; left: -3px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="n38293786666757bebdc6cf1044593311resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-n" style="position: absolute; left: 73px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="e38293786666757bebdc6cf1044593311resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-e" style="position: absolute; left: 148px; top: 35px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="s38293786666757bebdc6cf1044593311resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-s" style="position: absolute; left: 73px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="w38293786666757bebdc6cf1044593311resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-w" style="position: absolute; left: -3px; top: 35px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="38293786666757bebdc6cf1044593311Layer-first-layer" class="pmui pmui-layer mafe-activity-task" style="position: absolute; left: 0px; top: 0px; width: 151px; height: 75px; z-index: 1;"></div><div id="38293786666757bebdc6cf1044593311Layer-second-layer" class="pmui pmui-layer" style="display: none; position: absolute; left: 0px; top: 0px; width: 151px; height: 75px; z-index: 1;"></div><div id="pmui-31381664966780aead28ba4028788754" class="pmui pmui-label" style="position: absolute; left: 8px; top: 17px; width: 135px; height: 41px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;">Issuing New Documents</span><input style="width: 130px; position: absolute; display: none;"></div><div id="pmui-93089143266780aead28bb6060020030" class="undefined" style="position: absolute; left: 4px; top: 4px; width: 21px; height: 21px; z-index: 1;"></div><div id="pmui-64035273866780aead28bc4074540513" class="undefined" style="position: absolute; left: 65px; top: 50px; width: 21px; height: 21px; z-index: 1;"></div><div id="pmui-29910417166780aead28bd0029242889" class="PMVAlidatorMarker" style="position: absolute; left: 139px; top: 0px; width: 12px; height: 12px; z-index: 1; visibility: hidden;"><div id="pmui-71615214366780aead28bf0080951518" class="pmui pmui-markeritem" style="position: relative; left: 0px; top: 0px; width: 14px; height: 14px; z-index: 1;"></div></div><div id="pmui-36726966566780aead2c935094501089" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: 146px; top: 33px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-25120149466780aead2c954022180260" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div><div id="pmui-16606808466780aead2cad0024983022" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: 71px; top: 70px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-22570003066780aead2cae4062741940" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div></div><div id="48823079066757bebcf9449076756161" class="pmui pmui-pmactivity custom_shape ui-draggable ui-draggable-handle ui-resizable ui-droppable" style="position: absolute; left: 441px; top: 170px; width: 151px; height: 75px; z-index: 6;"><div id="nw48823079066757bebcf9449076756161resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-nw" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="ne48823079066757bebcf9449076756161resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-ne" style="position: absolute; left: 148px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="se48823079066757bebcf9449076756161resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-se" style="position: absolute; left: 148px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="sw48823079066757bebcf9449076756161resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-sw" style="position: absolute; left: -3px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="n48823079066757bebcf9449076756161resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-n" style="position: absolute; left: 73px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="e48823079066757bebcf9449076756161resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-e" style="position: absolute; left: 148px; top: 35px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="s48823079066757bebcf9449076756161resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-s" style="position: absolute; left: 73px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="w48823079066757bebcf9449076756161resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-w" style="position: absolute; left: -3px; top: 35px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="48823079066757bebcf9449076756161Layer-first-layer" class="pmui pmui-layer mafe-activity-task" style="position: absolute; left: 0px; top: 0px; width: 151px; height: 75px; z-index: 1;"></div><div id="48823079066757bebcf9449076756161Layer-second-layer" class="pmui pmui-layer" style="display: none; position: absolute; left: 0px; top: 0px; width: 151px; height: 75px; z-index: 1;"></div><div id="pmui-87395044666780aead29239069014178" class="pmui pmui-label" style="position: absolute; left: 8px; top: 27px; width: 135px; height: 21px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;">Updating Records</span><input style="width: 130px; position: absolute; display: none;"></div><div id="pmui-95302774166780aead29256039551466" class="undefined" style="position: absolute; left: 4px; top: 4px; width: 21px; height: 21px; z-index: 1;"></div><div id="pmui-28769728766780aead29263030626843" class="undefined" style="position: absolute; left: 65px; top: 50px; width: 21px; height: 21px; z-index: 1;"></div><div id="pmui-76237865766780aead29275017728594" class="PMVAlidatorMarker" style="position: absolute; left: 139px; top: 0px; width: 12px; height: 12px; z-index: 1; visibility: hidden;"><div id="pmui-54301678066780aead29287029547253" class="pmui pmui-markeritem" style="position: relative; left: 0px; top: 0px; width: 14px; height: 14px; z-index: 1;"></div></div><div id="pmui-91600897166780aead2caf4011448316" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: -5px; top: 33px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-55163704666780aead2cb09079652288" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div><div id="pmui-82148784266780aead2cf08064868067" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: 146px; top: 33px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-84934070666780aead2cf17000171784" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div></div><div id="61980313766757bc4193c61065044058" class="pmui pmui-pmactivity custom_shape ui-draggable ui-draggable-handle ui-resizable ui-droppable" style="position: absolute; left: 340px; top: 73px; width: 151px; height: 75px; z-index: 6;"><div id="nw61980313766757bc4193c61065044058resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-nw" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="ne61980313766757bc4193c61065044058resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-ne" style="position: absolute; left: 148px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="se61980313766757bc4193c61065044058resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-se" style="position: absolute; left: 148px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="sw61980313766757bc4193c61065044058resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-sw" style="position: absolute; left: -3px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="n61980313766757bc4193c61065044058resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-n" style="position: absolute; left: 73px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="e61980313766757bc4193c61065044058resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-e" style="position: absolute; left: 148px; top: 35px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="s61980313766757bc4193c61065044058resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-s" style="position: absolute; left: 73px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="w61980313766757bc4193c61065044058resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-w" style="position: absolute; left: -3px; top: 35px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="61980313766757bc4193c61065044058Layer-first-layer" class="pmui pmui-layer mafe-activity-task" style="position: absolute; left: 0px; top: 0px; width: 151px; height: 75px; z-index: 1;"></div><div id="61980313766757bc4193c61065044058Layer-second-layer" class="pmui pmui-layer" style="display: none; position: absolute; left: 0px; top: 0px; width: 151px; height: 75px; z-index: 1;"></div><div id="pmui-14996470166780aead2a632038321578" class="pmui pmui-label" style="position: absolute; left: 8px; top: 27px; width: 135px; height: 21px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;">Conduct Survey</span><input style="width: 130px; position: absolute; display: none;"></div><div id="pmui-86618320166780aead2a648065419232" class="undefined" style="position: absolute; left: 4px; top: 4px; width: 21px; height: 21px; z-index: 1;"></div><div id="pmui-18588008766780aead2a652019281270" class="undefined" style="position: absolute; left: 65px; top: 50px; width: 21px; height: 21px; z-index: 1;"></div><div id="pmui-48731988566780aead2a663030468987" class="PMVAlidatorMarker" style="position: absolute; left: 139px; top: 0px; width: 12px; height: 12px; z-index: 1; visibility: hidden;"><div id="pmui-45102028166780aead2a675050833379" class="pmui pmui-markeritem" style="position: relative; left: 0px; top: 0px; width: 14px; height: 14px; z-index: 1;"></div></div><div id="pmui-25457064366780aead2c916055053784" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: -5px; top: 33px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-50405300866780aead2c923052372083" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div><div id="pmui-87941802366780aead2d552072502471" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: 71px; top: -5px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-59158381566780aead2d562023634262" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div></div></div><div id="49044780466757afbeb1752092197275" class="pmui pmui-pmlane custom_shape ui-draggable ui-draggable-handle ui-resizable ui-droppable" style="position: absolute; left: 40px; top: 654px; width: 899px; height: 201px; z-index: 5; border-top: 2px solid rgb(59, 71, 83);"><div id="nw49044780466757afbeb1752092197275resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-nw" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="ne49044780466757afbeb1752092197275resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-ne" style="position: absolute; left: 896px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="se49044780466757afbeb1752092197275resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-se" style="position: absolute; left: 896px; top: 198px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="sw49044780466757afbeb1752092197275resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-sw" style="position: absolute; left: -3px; top: 198px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="n49044780466757afbeb1752092197275resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-n" style="position: absolute; left: 447px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="e49044780466757afbeb1752092197275resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-e" style="position: absolute; left: 896px; top: 98px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="s49044780466757afbeb1752092197275resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-s" style="position: absolute; left: 447px; top: 198px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="w49044780466757afbeb1752092197275resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-w" style="position: absolute; left: -3px; top: 98px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="49044780466757afbeb1752092197275Layer-first-layer" class="pmui pmui-layer" style="position: absolute; left: 0px; top: 0px; width: 899px; height: 201px; z-index: 1;"></div><div id="pmui-70749157766780aead28932002893256" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled rotateText" style="position: absolute; left: -80px; top: 90px; width: 201px; height: 21px; z-index: 1; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;">Management</span><input style="width: 200px; position: absolute; display: none; left: 0px;"></div><div id="56000546066757bec052751006596845" class="pmui pmui-pmactivity custom_shape ui-draggable ui-draggable-handle ui-resizable ui-droppable" style="position: absolute; left: 633px; top: 62px; width: 151px; height: 75px; z-index: 6;"><div id="nw56000546066757bec052751006596845resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-nw" style="position: absolute; left: -3px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="ne56000546066757bec052751006596845resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-ne" style="position: absolute; left: 148px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="se56000546066757bec052751006596845resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-se" style="position: absolute; left: 148px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="sw56000546066757bec052751006596845resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-sw" style="position: absolute; left: -3px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="n56000546066757bec052751006596845resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-n" style="position: absolute; left: 73px; top: -3px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="e56000546066757bec052751006596845resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-e" style="position: absolute; left: 148px; top: 35px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="s56000546066757bec052751006596845resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-s" style="position: absolute; left: 73px; top: 72px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="w56000546066757bec052751006596845resizehandler" class="pmui pmui-resizehandler ui-resizable-handle ui-resizable-w" style="position: absolute; left: -3px; top: 35px; width: 4px; height: 4px; z-index: 123; background-color: rgb(0, 255, 0); border: 1px solid black; display: none;"></div><div id="56000546066757bec052751006596845Layer-first-layer" class="pmui pmui-layer mafe-activity-task" style="position: absolute; left: 0px; top: 0px; width: 151px; height: 75px; z-index: 1;"></div><div id="56000546066757bec052751006596845Layer-second-layer" class="pmui pmui-layer" style="display: none; position: absolute; left: 0px; top: 0px; width: 151px; height: 75px; z-index: 1;"></div><div id="pmui-95193038566780aead29f92009292195" class="pmui pmui-label" style="position: absolute; left: 8px; top: 27px; width: 135px; height: 21px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;">Invoice The Client</span><input style="width: 130px; position: absolute; display: none;"></div><div id="pmui-38421281766780aead29fa8087674390" class="undefined" style="position: absolute; left: 4px; top: 4px; width: 21px; height: 21px; z-index: 1;"></div><div id="pmui-50492996766780aead29fb3035046358" class="undefined" style="position: absolute; left: 65px; top: 50px; width: 21px; height: 21px; z-index: 1;"></div><div id="pmui-85310186966780aead29fc6040952829" class="PMVAlidatorMarker" style="position: absolute; left: 139px; top: 0px; width: 12px; height: 12px; z-index: 1; visibility: hidden;"><div id="pmui-54653251666780aead29fd5093114178" class="pmui pmui-markeritem" style="position: relative; left: 0px; top: 0px; width: 14px; height: 14px; z-index: 1;"></div></div><div id="pmui-50879961966780aead2cf25094111665" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: -5px; top: 33px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-98194532366780aead2cf39041482161" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div><div id="pmui-82838153166780aead2d0c1011375631" class="pmui pmui-port port ui-draggable ui-draggable-handle" style="display: none; position: absolute; left: 71px; top: -5px; width: 10px; height: 10px; z-index: 1;"><div id="pmui-52027918766780aead2d0d2015457085" class="pmui pmui-oval" style="position: absolute; left: 0px; top: 0px; width: 10px; height: 10px; z-index: 1; display: inline;"><div style="font-size: 0px;"><div style="position:absolute;left:3px;top:0px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:3px;top:9px;width:4px;height:1px;clip:rect(0,4px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:1px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:2px;top:8px;width:6px;height:1px;clip:rect(0,6px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:2px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:1px;top:7px;width:8px;height:1px;clip:rect(0,8px,1px,0);background-color:red;overflow:hidden;"></div><div style="position:absolute;left:0px;top:3px;width:10px;height:4px;clip:rect(0,10px,4px,0);background-color:red;overflow:hidden;"></div></div></div></div></div></div></div><div id="pmui-95238938666780ae9d27f33057167950" class="crown-container" style="position: absolute; left: 1415px; top: 290px; width: 26px; height: 26px; z-index: 1; display: none;"><div class="row row-0"><div id="delete" class="mafe-corona-delete item-crown" title="Delete" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div></div><div id="pmui-81704329266780aead28c06019300132" class="crown-container" style="position: absolute; left: 753px; top: 786px; width: 78px; height: 78px; z-index: 1; display: none;"><div class="row row-0"><div id="task" class="mafe-corona-task item-crown" title="Task" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="gateway" class="mafe-corona-gateway-exclusive item-crown" title="Gateway" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="intermediate" class="mafe-corona-intermediate item-crown" title="Intermediate" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-1"><div id="end" class="mafe-corona-end item-crown" title="End" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="flow" class="mafe-corona-flow item-crown" title="Flow" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="properties" class="mafe-corona-settings item-crown" title="Properties" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-2"><div id="delete" class="mafe-corona-delete item-crown" title="Delete" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div></div><div id="pmui-13643637966780aead29295076071576" class="crown-container" style="position: absolute; left: 1110px; top: 864px; width: 78px; height: 78px; z-index: 1; display: none;"><div class="row row-0"><div id="task" class="mafe-corona-task item-crown" title="Task" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="gateway" class="mafe-corona-gateway-exclusive item-crown" title="Gateway" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="intermediate" class="mafe-corona-intermediate item-crown" title="Intermediate" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-1"><div id="end" class="mafe-corona-end item-crown" title="End" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="flow" class="mafe-corona-flow item-crown" title="Flow" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="properties" class="mafe-corona-settings item-crown" title="Properties" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-2"><div id="delete" class="mafe-corona-delete item-crown" title="Delete" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div></div><div id="pmui-81528942366780aead29944020592518" class="crown-container" style="position: absolute; left: 858px; top: 371px; width: 78px; height: 78px; z-index: 1; display: none;"><div class="row row-0"><div id="task" class="mafe-corona-task item-crown" title="Task" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="gateway" class="mafe-corona-gateway-exclusive item-crown" title="Gateway" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="intermediate" class="mafe-corona-intermediate item-crown" title="Intermediate" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-1"><div id="end" class="mafe-corona-end item-crown" title="End" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="flow" class="mafe-corona-flow item-crown" title="Flow" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="properties" class="mafe-corona-settings item-crown" title="Properties" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-2"><div id="delete" class="mafe-corona-delete item-crown" title="Delete" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div></div><div id="pmui-96674713866780aead29fe8064529347" class="crown-container" style="position: absolute; left: 1302px; top: 1010px; width: 78px; height: 78px; z-index: 1; display: none;"><div class="row row-0"><div id="task" class="mafe-corona-task item-crown" title="Task" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="gateway" class="mafe-corona-gateway-exclusive item-crown" title="Gateway" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="intermediate" class="mafe-corona-intermediate item-crown" title="Intermediate" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-1"><div id="end" class="mafe-corona-end item-crown" title="End" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="flow" class="mafe-corona-flow item-crown" title="Flow" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="properties" class="mafe-corona-settings item-crown" title="Properties" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-2"><div id="delete" class="mafe-corona-delete item-crown" title="Delete" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div></div><div id="pmui-31871428166780aead2a690032490512" class="crown-container" style="position: absolute; left: 1009px; top: 767px; width: 78px; height: 78px; z-index: 1; display: none;"><div class="row row-0"><div id="task" class="mafe-corona-task item-crown" title="Task" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="gateway" class="mafe-corona-gateway-exclusive item-crown" title="Gateway" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="intermediate" class="mafe-corona-intermediate item-crown" title="Intermediate" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-1"><div id="end" class="mafe-corona-end item-crown" title="End" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="flow" class="mafe-corona-flow item-crown" title="Flow" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="properties" class="mafe-corona-settings item-crown" title="Properties" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-2"><div id="delete" class="mafe-corona-delete item-crown" title="Delete" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div></div><div id="pmui-72017371366780aead2ad31073294521" class="crown-container" style="position: absolute; left: 969px; top: 508px; width: 78px; height: 78px; z-index: 1; display: none;"><div class="row row-0"><div id="task" class="mafe-corona-task item-crown" title="Task" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="gateway" class="mafe-corona-gateway-exclusive item-crown" title="Gateway" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="intermediate" class="mafe-corona-intermediate item-crown" title="Intermediate" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-1"><div id="end" class="mafe-corona-end item-crown" title="End" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="flow" class="mafe-corona-flow item-crown" title="Flow" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="properties" class="mafe-corona-settings item-crown" title="Properties" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-2"><div id="delete" class="mafe-corona-delete item-crown" title="Delete" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div></div><div id="pmui-83698599466780aead2b3f3074369359" class="crown-container" style="position: absolute; left: 1212px; top: 600px; width: 78px; height: 78px; z-index: 1; display: none;"><div class="row row-0"><div id="task" class="mafe-corona-task item-crown" title="Task" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="gateway" class="mafe-corona-gateway-exclusive item-crown" title="Gateway" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="intermediate" class="mafe-corona-intermediate item-crown" title="Intermediate" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-1"><div id="end" class="mafe-corona-end item-crown" title="End" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="flow" class="mafe-corona-flow item-crown" title="Flow" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="properties" class="mafe-corona-settings item-crown" title="Properties" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-2"><div id="delete" class="mafe-corona-delete item-crown" title="Delete" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div></div><div id="pmui-31940248866780aead2b9d2065917140" class="crown-container" style="position: absolute; left: 1243px; top: 415px; width: 26px; height: 52px; z-index: 1; display: none;"><div class="row row-0"><div id="flow" class="mafe-corona-flow item-crown" title="Flow" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-1"><div id="delete" class="mafe-corona-delete item-crown" title="Delete" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div></div><div id="pmui-22395526766780aead2bd63009328071" class="crown-container" style="position: absolute; left: 1104px; top: 411px; width: 52px; height: 52px; z-index: 107; display: none;"><div class="row row-0"><div id="flow" class="mafe-corona-flow item-crown" title="Flow" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="properties" class="mafe-corona-settings item-crown" title="Properties" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-1"><div id="delete" class="mafe-corona-delete item-crown" title="Delete" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div></div><div id="pmui-70555212666780aead2c125055799014" class="crown-container" style="position: absolute; left: 662px; top: 392px; width: 52px; height: 78px; z-index: 1; display: none;"><div class="row row-0"><div id="task" class="mafe-corona-task item-crown" title="Task" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="gateway" class="mafe-corona-gateway-exclusive item-crown" title="Gateway" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-1"><div id="intermediate" class="mafe-corona-intermediate item-crown" title="Intermediate" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="flow" class="mafe-corona-flow item-crown" title="Flow" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-2"><div id="delete" class="mafe-corona-delete item-crown" title="Delete" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div></div><div id="pmui-86031153566780aead2c510011155104" class="crown-container" style="position: absolute; left: 914px; top: 616px; width: 52px; height: 78px; z-index: 1; display: none;"><div class="row row-0"><div id="task" class="mafe-corona-task item-crown" title="Task" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="gateway" class="mafe-corona-gateway-exclusive item-crown" title="Gateway" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-1"><div id="end" class="mafe-corona-end item-crown" title="End" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="flow" class="mafe-corona-flow item-crown" title="Flow" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div><div class="row row-2"><div id="properties" class="mafe-corona-settings item-crown" title="Properties" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div><div id="delete" class="mafe-corona-delete item-crown" title="Delete" style="position: relative; left: 0px; top: 0px; width: 22px; height: 22px; z-index: 1;"></div></div></div><div id="3225928716675843401d033063786011" class="pmui pmui-connection" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 7;"><div id="pmui-62636339866780aead2c8d5084937877" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:662px;top:409px;width:46px;height:1px;clip:rect(0,46px,1px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-10894937366780aead2c8c7020757348" class="pmui pmui-connectiondecorator bpmn_zoom mafe-sequence_100_target_left" style="position: absolute; left: 696px; top: 404px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-96675633566780aead2c8b4074445980" class="pmui pmui-connectiondecorator bpmn_zoom mafe-decorator_100_source_right" style="position: absolute; left: 662px; top: 404px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-85022810266780aead2c8f9045646481" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled" style="position: absolute; left: 634px; top: 415px; width: 101px; height: 0px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;"> </span><input style="width: 200px; position: absolute; display: none;"></div></div><div id="340508112667615ce896dc8052813630" class="pmui pmui-connection" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 102;"><div id="pmui-17697460766780aead2ca46042479469" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:805px;top:805px;width:54px;height:1px;clip:rect(0,54px,1px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-76331540666780aead2ca63008183300" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:805px;top:805px;width:1px;height:20px;clip:rect(0,1px,20px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div><div id="pmui-18938776366780aead2caa7021496731" class="pmui pmui-segmentmovehandler ui-draggable ui-draggable-handle" style="border: 1px solid black; display: none; position: absolute; left: 803px; top: 813px; width: 4px; height: 4px; z-index: 2; background-color: rgb(0, 255, 0);"></div></div><div id="pmui-69288803366780aead2ca79075727402" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:753px;top:824px;width:53px;height:1px;clip:rect(0,53px,1px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-33347505466780aead2ca38088742057" class="pmui pmui-connectiondecorator bpmn_zoom mafe-sequence_100_target_right" style="position: absolute; left: 753px; top: 819px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-85397984166780aead2ca20052246850" class="pmui pmui-connectiondecorator bpmn_zoom mafe-decorator_100_source_left" style="position: absolute; left: 847px; top: 800px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-18808000766780aead2ca82037738576" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled" style="position: absolute; left: 781px; top: 811px; width: 101px; height: 0px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;"> </span><input style="width: 200px; position: absolute; display: none;"></div></div><div id="460426370667615ce897d09014044100" class="pmui pmui-connection" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 102;"><div id="pmui-54231259966780aead2cbe8047997471" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:678px;top:861px;width:1px;height:42px;clip:rect(0,1px,42px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-12527662866780aead2cbf8003641269" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:678px;top:902px;width:282px;height:1px;clip:rect(0,282px,1px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-28569910066780aead2cbd0049846437" class="pmui pmui-connectiondecorator bpmn_zoom mafe-sequence_100_target_left" style="position: absolute; left: 948px; top: 897px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-96210905666780aead2cbc4091130196" class="pmui pmui-connectiondecorator bpmn_zoom mafe-decorator_100_source_bottom" style="position: absolute; left: 673px; top: 861px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-40187966966780aead2cc12034495900" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled" style="position: absolute; left: 768px; top: 908px; width: 101px; height: 0px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;"> </span><input style="width: 200px; position: absolute; display: none;"></div></div><div id="4836988256676c64f592b32092034656" class="pmui pmui-connection" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 7;"><div id="pmui-24809095966780aead2cd30072241954" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:914px;top:637px;width:74px;height:1px;clip:rect(0,74px,1px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-48359191666780aead2cd45002501200" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:987px;top:637px;width:1px;height:2px;clip:rect(0,1px,2px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div><div id="pmui-38480013866780aead2cd84061652768" class="pmui pmui-segmentmovehandler ui-draggable ui-draggable-handle" style="border: 1px solid black; display: none; position: absolute; left: 985px; top: 636px; width: 4px; height: 4px; z-index: 2; background-color: rgb(0, 255, 0);"></div></div><div id="pmui-82180924266780aead2cd59002621859" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:987px;top:638px;width:75px;height:1px;clip:rect(0,75px,1px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-69331502466780aead2cd22050322971" class="pmui pmui-connectiondecorator bpmn_zoom mafe-sequence_100_target_left" style="position: absolute; left: 1050px; top: 633px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-99100448166780aead2cd17024280658" class="pmui pmui-connectiondecorator bpmn_zoom mafe-decorator_100_source_right" style="position: absolute; left: 914px; top: 632px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-46592391966780aead2cd65002035913" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled" style="position: absolute; left: 900px; top: 643px; width: 101px; height: 0px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;">court referral</span><input style="width: 200px; position: absolute; display: none;"></div></div><div id="7033604796676143e79be02081517981" class="pmui pmui-connection" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 7;"><div id="pmui-40197333166780aead2ceb9046455978" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:894px;top:583px;width:1px;height:34px;clip:rect(0,1px,34px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-44426723266780aead2cea6040628533" class="pmui pmui-connectiondecorator bpmn_zoom mafe-sequence_100_target_top" style="position: absolute; left: 889px; top: 605px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-68315865466780aead2ce94064353961" class="pmui pmui-connectiondecorator bpmn_zoom mafe-decorator_100_source_bottom" style="position: absolute; left: 889px; top: 583px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-12285174466780aead2cec7092327058" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled" style="position: absolute; left: 844px; top: 606px; width: 101px; height: 0px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;"> </span><input style="width: 200px; position: absolute; display: none;"></div></div><div id="884351633667615f67b8681041271406" class="pmui pmui-connection" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 102;"><div id="pmui-67548887666780aead2d015040295033" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:1110px;top:902px;width:21px;height:1px;clip:rect(0,21px,1px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-88531091466780aead2d021010812739" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:1130px;top:902px;width:1px;height:147px;clip:rect(0,1px,147px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div><div id="pmui-68758001866780aead2d091008648262" class="pmui pmui-segmentmovehandler ui-draggable ui-draggable-handle" style="border: 1px solid black; display: none; position: absolute; left: 1128px; top: 973px; width: 4px; height: 4px; z-index: 2; background-color: rgb(0, 255, 0);"></div></div><div id="pmui-96171010066780aead2d053019676086" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:1130px;top:1048px;width:22px;height:1px;clip:rect(0,22px,1px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-82147525966780aead2d001009077043" class="pmui pmui-connectiondecorator bpmn_zoom mafe-sequence_100_target_left" style="position: absolute; left: 1140px; top: 1043px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-48369024266780aead2cff2080587164" class="pmui pmui-connectiondecorator bpmn_zoom mafe-decorator_100_source_right" style="position: absolute; left: 1110px; top: 897px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-18593778566780aead2d061083640040" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled" style="position: absolute; left: 1080px; top: 981px; width: 101px; height: 0px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;"> </span><input style="width: 200px; position: absolute; display: none;"></div></div><div id="8984089716675866432d2d2031223172" class="pmui pmui-connection" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 7;"><div id="pmui-21747778966780aead2d1c5085312474" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:1227px;top:448px;width:1px;height:563px;clip:rect(0,1px,563px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-61892262766780aead2d1b2066607868" class="pmui pmui-connectiondecorator bpmn_zoom mafe-sequence_100_target_bottom" style="position: absolute; left: 1222px; top: 448px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-91667021566780aead2d1a2025712607" class="pmui pmui-connectiondecorator bpmn_zoom mafe-decorator_100_source_top" style="position: absolute; left: 1222px; top: 999px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-52004617466780aead2d1d5048645925" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled" style="position: absolute; left: 1177px; top: 735px; width: 101px; height: 0px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;"> </span><input style="width: 200px; position: absolute; display: none;"></div></div><div id="971249442667617d65fd143085548291" class="pmui pmui-connection" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 7;"><div id="pmui-69911705166780aead2d2f9081220544" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:1137px;top:522px;width:1px;height:79px;clip:rect(0,1px,79px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-25559618166780aead2d302099933387" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:1088px;top:522px;width:50px;height:1px;clip:rect(0,50px,1px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div><div id="pmui-41827906966780aead2d358046590739" class="pmui pmui-segmentmovehandler ui-draggable ui-draggable-handle" style="border: 1px solid black; display: none; position: absolute; left: 1111px; top: 520px; width: 4px; height: 4px; z-index: 2; background-color: rgb(0, 255, 0);"></div></div><div id="pmui-14354673866780aead2d320025704303" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:1088px;top:444px;width:1px;height:79px;clip:rect(0,1px,79px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-59657169966780aead2d2e7088029321" class="pmui pmui-connectiondecorator bpmn_zoom mafe-sequence_100_target_bottom" style="position: absolute; left: 1083px; top: 444px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-97346668266780aead2d2d2050469575" class="pmui pmui-connectiondecorator bpmn_zoom mafe-decorator_100_source_top" style="position: absolute; left: 1132px; top: 589px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-84506044066780aead2d336038638899" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled" style="position: absolute; left: 1087px; top: 567px; width: 101px; height: 0px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;"> </span><input style="width: 200px; position: absolute; display: none;"></div></div><div id="9891512206675843401dd05074582735" class="pmui pmui-connection" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 7;"><div id="pmui-74096330866780aead2d4a7034745623" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:783px;top:446px;width:1px;height:32px;clip:rect(0,1px,32px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-63399458666780aead2d4b9031268497" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:783px;top:477px;width:112px;height:1px;clip:rect(0,112px,1px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div><div id="pmui-59067171866780aead2d4f4051973139" class="pmui pmui-segmentmovehandler ui-draggable ui-draggable-handle" style="border: 1px solid black; display: none; position: absolute; left: 837px; top: 475px; width: 4px; height: 4px; z-index: 2; background-color: rgb(0, 255, 0);"></div></div><div id="pmui-69983005566780aead2d4c6018535929" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:894px;top:477px;width:1px;height:32px;clip:rect(0,1px,32px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-42994563766780aead2d489079981090" class="pmui pmui-connectiondecorator bpmn_zoom mafe-sequence_100_target_top" style="position: absolute; left: 889px; top: 497px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-64671606066780aead2d476032490710" class="pmui pmui-connectiondecorator bpmn_zoom mafe-decorator_100_source_bottom" style="position: absolute; left: 778px; top: 446px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-72707930366780aead2d4d1032820129" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled" style="position: absolute; left: 788px; top: 483px; width: 101px; height: 0px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;"> </span><input style="width: 200px; position: absolute; display: none;"></div></div><div id="3714862306676c64f5942b8085112388" class="pmui pmui-connection" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 7;"><div id="pmui-46498041566780aead2d637039463989" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:894px;top:657px;width:1px;height:56px;clip:rect(0,1px,56px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-83741411166780aead2d643084402411" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:894px;top:712px;width:41px;height:1px;clip:rect(0,41px,1px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div><div id="pmui-50666661966780aead2d698055284414" class="pmui pmui-segmentmovehandler ui-draggable ui-draggable-handle" style="border: 1px solid black; display: none; position: absolute; left: 912px; top: 710px; width: 4px; height: 4px; z-index: 2; background-color: rgb(0, 255, 0);"></div></div><div id="pmui-10213035466780aead2d657010587423" style="position: absolute; left: 0px; top: 0px; height: 0px; width: 0px; z-index: 10;"><div style="font-size: 0px;"><div style="position:absolute;left:934px;top:712px;width:1px;height:56px;clip:rect(0,1px,56px,0);background-color:rgba(0,0,0,1);overflow:hidden;"></div></div></div><div id="pmui-35417948866780aead2d622060787984" class="pmui pmui-connectiondecorator bpmn_zoom mafe-sequence_100_target_top" style="position: absolute; left: 929px; top: 756px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-54263473466780aead2d612000830686" class="pmui pmui-connectiondecorator bpmn_zoom mafe-decorator_100_source_bottom" style="position: absolute; left: 889px; top: 657px; height: 11px; width: 11px; z-index: 100;"></div><div id="pmui-55837062466780aead2d670014629997" class="pmui pmui-label ui-droppable ui-draggable ui-draggable-handle ui-resizable ui-resizable-disabled" style="position: absolute; left: 844px; top: 691px; width: 101px; height: 0px; z-index: 120; text-align: center; font-family: arial; font-size: 10pt; vertical-align: middle;"><span style="width: auto; height: auto; line-height: 20px; display: block;">needs a survey</span><input style="width: 200px; position: absolute; display: none;"></div></div></div></div>
+
+    <section class="content" id="idContent" style="height: 0px;">
+
+        <div class="content_controls ui-draggable" style="display: block;">
+            <div class="head ui-draggable-handle"><span class="mafe-process-object">Process Objects</span><span id="minControls" class="mafe-shapes-toggle" title="Minimize"></span><span id="resetControls" class="mafe-shapes-refresh" title="Reset to original position" style="background-position: 0px 0px;"></span></div>
+            <ul id="contentControlList">
+                
+            <li id="variableCreate"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="mafe-menu-variable" title="">Variables</a><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="btn_create mafe-menu-variable-create" title=""><span>Create</span></a></li><li id="messageTypeCreate"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="mafe-menu-messagetype" title="">Message Types</a><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="btn_create mafe-menu-messagetype-create" title=""><span>Create</span></a></li><li id="dynaformCreate"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="mafe-menu-dynaform" title="">Dynaforms</a><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="btn_create mafe-menu-dynaform-create" title=""><span>Create</span></a></li><li id="inputDocumentCreate"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="mafe-menu-inputdocuments" title="">Input Documents</a><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="btn_create mafe-menu-inputdocuments-create" title=""><span>Create</span></a></li><li id="outputDocumentCreate"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="mafe-menu-outputdocuments" title="">Output Documents</a><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="btn_create mafe-menu-outputdocuments-create" title=""><span>Create</span></a></li><li id="triggerCreate"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="mafe-menu-triggers" title="">Triggers</a><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="btn_create mafe-menu-triggers-create" title=""><span>Create</span></a></li><li id="reportTableCreate"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="mafe-menu-reporttables" title="">Report Tables</a><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="btn_create mafe-menu-reporttables-create" title=""><span>Create</span></a></li><li id="databaseCreate"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="mafe-menu-databaseconnections" title="">Database Connections</a><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="btn_create mafe-menu-databaseconnections-create" title=""><span>Create</span></a></li><li id="templateCreate"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="mafe-menu-templates" title="">Templates</a><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="btn_create mafe-menu-templates-create" title=""><span>Create</span></a></li><li id="menuPublic"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="mafe-menu-public" title="">Public Files</a><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="btn_create mafe-menu-public-create" title=""><span>Create</span></a></li><li id="menuPermission"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="mafe-menu-permissions" title="">Permissions</a><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="btn_create mafe-menu-permissions-create" title=""><span>Create</span></a></li><li id="menuCaseTracker"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="mafe-menu-casetracker" title="">Case Tracker</a></li><li id="menuSupervisor"><a href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#" class="mafe-menu-supervisors" title="">Supervisors</a></li></ul>
+        </div>
+        <div class="bpmn_shapes_legend" style="display: none;">
+            <div class="head"><span id="minShapesLegend" class="mafe-shapes-toggle" title="Minimize"></span></div>
+        </div>
+    </section>
+<script src="./PM.js.download" type="text/javascript"></script>
+<script src="./Sessions.js.download" type="text/javascript"></script>
+</div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"><div>Task</div></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"><div>Lane</div></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"><div style="display: none;">Close</div><div style="display: none;">Close</div><div>Close</div></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"><div>Export process</div></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"><div style="display: none;">Export Diagram </div><div>Export Diagram </div></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"><div style="display: none;">Undo Action</div><div style="display: none;">Undo Action</div><div>Undo Action</div></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div class="bpmn_validator" style="display: block;"><div class="validator_header"><h2> Validator </h2><a class="validator-close" href="http://owsgip.itc.utwente.nl:9090/syswfms/en/neoclassic/designer?prj_uid=27544921766757a332a78c0043908190#"><span class="mafe-validator-close" title=""></span></a></div><div class="validator_body"><div id="validator-table_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_scroll"><div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px; width: 100%;"><div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 1832px; padding-right: 0px;"><table cellpadding="0" cellspacing="0" border="0" class="display dataTable no-footer" width="100%" role="grid" style="margin-left: 0px; width: 1832px;"><thead><tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="validator-table" rowspan="1" colspan="1" style="width: 66px;" aria-label="#: activate to sort column descending" aria-sort="ascending">#</th><th class="sorting" tabindex="0" aria-controls="validator-table" rowspan="1" colspan="1" style="width: 167px;" aria-label="Type: activate to sort column ascending">Type</th><th class="sorting" tabindex="0" aria-controls="validator-table" rowspan="1" colspan="1" style="width: 270px;" aria-label="Element: activate to sort column ascending">Element</th><th class="sorting" tabindex="0" aria-controls="validator-table" rowspan="1" colspan="1" style="width: 270px;" aria-label="Element Type: activate to sort column ascending">Element Type</th><th class="sorting" tabindex="0" aria-controls="validator-table" rowspan="1" colspan="1" style="width: 879px;" aria-label="Description: activate to sort column ascending">Description</th></tr></thead></table></div></div><div class="dataTables_scrollBody" style="overflow: auto; height: 31px; width: 100%;"><table cellpadding="0" cellspacing="0" border="0" class="display dataTable no-footer" id="validator-table" width="100%" role="grid" style="width: 100%;"><thead><tr role="row" style="height: 0px;"><th class="sorting_asc" aria-controls="validator-table" rowspan="1" colspan="1" style="width: 66px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-sort="ascending" aria-label="#: activate to sort column descending"><div class="dataTables_sizing" style="height:0;overflow:hidden;">#</div></th><th class="sorting" aria-controls="validator-table" rowspan="1" colspan="1" style="width: 167px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="Type: activate to sort column ascending"><div class="dataTables_sizing" style="height:0;overflow:hidden;">Type</div></th><th class="sorting" aria-controls="validator-table" rowspan="1" colspan="1" style="width: 270px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="Element: activate to sort column ascending"><div class="dataTables_sizing" style="height:0;overflow:hidden;">Element</div></th><th class="sorting" aria-controls="validator-table" rowspan="1" colspan="1" style="width: 270px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="Element Type: activate to sort column ascending"><div class="dataTables_sizing" style="height:0;overflow:hidden;">Element Type</div></th><th class="sorting" aria-controls="validator-table" rowspan="1" colspan="1" style="width: 879px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="Description: activate to sort column ascending"><div class="dataTables_sizing" style="height:0;overflow:hidden;">Description</div></th></tr></thead><tbody><tr class="odd"><td valign="top" colspan="5" class="dataTables_empty">No data available in table</td></tr></tbody></table></div></div></div></div></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"><div style="display: none;">Zoom</div><div style="display: none;">Zoom</div><div>Zoom</div></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div id="__msgFlashMessage" class="pmui pmui-flashmessage pmui-success" style="left: 50%; top: 50px; width: auto; height: auto; position: fixed; z-index: 0; opacity: 0; margin-left: -118.5px; background: rgba(0, 0, 0, 0.4); display: block;">DynaForm saved successfully</div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible" style="display: block;"></div></body><quillbot-extension-portal style="display: initial; visibility: initial; opacity: initial; clip-path: initial;"><template shadowrootmode="open"><div></div></template></quillbot-extension-portal><quillbot-extension-root style="display: initial; visibility: initial; opacity: initial; clip-path: initial;"><template shadowrootmode="open" shadowrootdelegatesfocus><div id="qb-ext-sr"><div style="display: none;"><button class="MuiButton-root MuiButton-primary MuiButton-primaryPrimary MuiButton-sizeSmall MuiButton-primarySizeSmall MuiButtonBase-root extn-css-1mbubfb" tabindex="0" type="button" appearance="brand"><span class="MuiTouchRipple-root extn-css-w0pj6f"></span></button></div><style data-styled="active" data-styled-version="5.3.5">*,::before,::after{box-sizing:border-box;border-width:0;border-style:solid;--tw-border-opacity:1;border-color:rgba(229,231,235,var(--tw-border-opacity));--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-transform:translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));--tw-ring-inset:var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-blur:var(--tw-empty,/*!*/ /*!*/);--tw-brightness:var(--tw-empty,/*!*/ /*!*/);--tw-contrast:var(--tw-empty,/*!*/ /*!*/);--tw-grayscale:var(--tw-empty,/*!*/ /*!*/);--tw-hue-rotate:var(--tw-empty,/*!*/ /*!*/);--tw-invert:var(--tw-empty,/*!*/ /*!*/);--tw-saturate:var(--tw-empty,/*!*/ /*!*/);--tw-sepia:var(--tw-empty,/*!*/ /*!*/);--tw-drop-shadow:var(--tw-empty,/*!*/ /*!*/);--tw-filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);--tw-backdrop-blur:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-brightness:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-contrast:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-grayscale:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-hue-rotate:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-invert:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-opacity:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-saturate:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-sepia:var(--tw-empty,/*!*/ /*!*/);--tw-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";}body{margin:0;font-family:inherit;line-height:inherit;}hr{height:0;color:inherit;border-top-width:1px;}abbr[title]{-webkit-text-decoration:underline dotted;text-decoration:underline dotted;}b,strong{font-weight:bolder;}code,kbd,samp,pre{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace;font-size:1em;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sub{bottom:-0.25em;}sup{top:-0.5em;}table{text-indent:0;border-color:inherit;border-collapse:collapse;}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:inherit;margin:0;padding:0;color:inherit;}button,select{text-transform:none;}button,[type='button'],[type='reset'],[type='submit']{-webkit-appearance:button;}::-moz-focus-inner{border-style:none;padding:0;}:-moz-focusring{outline:1px dotted ButtonText;}:-moz-ui-invalid{box-shadow:none;}legend{padding:0;}progress{vertical-align:baseline;}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto;}[type='search']{-webkit-appearance:textfield;outline-offset:-2px;}::-webkit-search-decoration{-webkit-appearance:none;}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit;}summary{display:list-item;}blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre{margin:0;}button{background-color:transparent;background-image:none;}fieldset{margin:0;padding:0;}ol,ul{list-style:none;margin:0;padding:0;}img{border-style:solid;}textarea{resize:vertical;}input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#9ca3af;}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#9ca3af;}input::placeholder,textarea::placeholder{color:#9ca3af;}button,[role="button"]{cursor:pointer;}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}a{color:inherit;-webkit-text-decoration:inherit;text-decoration:inherit;}pre,code,kbd,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;}img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle;}img,video{max-width:100%;height:auto;}[hidden]{display:none;}@-webkit-keyframes spin{to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}@keyframes spin{to{-webkit-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg);}}@-webkit-keyframes ping{75%,100%{-webkit-transform:scale(2);-ms-transform:scale(2);transform:scale(2);opacity:0;}}@keyframes ping{75%,100%{-webkit-transform:scale(2);-ms-transform:scale(2);transform:scale(2);opacity:0;}}@-webkit-keyframes pulse{50%{opacity:.5;}}@keyframes pulse{50%{opacity:.5;}}@-webkit-keyframes bounce{0%,100%{-webkit-transform:translateY(-25%);-ms-transform:translateY(-25%);transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(0.8,0,1,1);animation-timing-function:cubic-bezier(0.8,0,1,1);}50%{-webkit-transform:none;-ms-transform:none;transform:none;-webkit-animation-timing-function:cubic-bezier(0,0,0.2,1);animation-timing-function:cubic-bezier(0,0,0.2,1);}}@keyframes bounce{0%,100%{-webkit-transform:translateY(-25%);-ms-transform:translateY(-25%);transform:translateY(-25%);-webkit-animation-timing-function:cubic-bezier(0.8,0,1,1);animation-timing-function:cubic-bezier(0.8,0,1,1);}50%{-webkit-transform:none;-ms-transform:none;transform:none;-webkit-animation-timing-function:cubic-bezier(0,0,0.2,1);animation-timing-function:cubic-bezier(0,0,0.2,1);}}</style></div><style id="common-css">[contenteditable]:focus {
+  outline: 0px solid transparent;
+}
+
+:root {
+  --new: #499557;
+  --new-hover: #41894e;
+  --new-secondary: #71b657;
+  --new-filter: saturate(150%) hue-rotate(25deg) brightness(92%);
+  --new-filter-hover: brightness(90%);
+  --new-banner: #6aab76;
+  --new-banner-hover: #65986f;
+
+  --traditional-filter: none;
+  --traditional-filter-hover: none;
+  --traditional-secondary: #8aad67;
+  --traditional: #849e63;
+  --traditional-hover: #687b50;
+  --traditional-banner: #99b576;
+  --traditional-banner-hover: #799655;
+
+  --primary: var(--new);
+  --secondary: var(--new-secondary);
+  --primary-hover: var(--new-hover);
+  --image-filter: var(--new-filter);
+  --image-filter-hover: var(--new-filter-hover);
+  --banner: var(--new-banner);
+  --banner-hover: var(--new-banner-hover);
+
+  --default-font: Lato, sans-serif;
+}
+
+body {
+  background: #fff;
+  justify-content: center;
+  text-rendering: optimizelegibility;
+  margin: 0 !important;
+}
+
+.mobile-quill-bottom-controls > div {
+  min-width: 48px;
+}
+
+textarea {
+  resize: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* .title {
+  width: 500px;
+  font-size: 1.5rem;
+  display: inline-block;
+} */
+
+.btn {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: all 0.3s;
+}
+
+/* hide google re-captcha */
+
+.go-premium-btn {
+  width: 150px;
+  text-align: center;
+  padding: 4px 20px !important;
+  margin: auto;
+  font-weight: bold !important;
+  color: #fff;
+  cursor: pointer;
+}
+
+.no-box-shadow {
+  box-shadow: none !important;
+}
+
+.login-offer-text {
+  margin: -2px 2px;
+}
+
+.green-text {
+  transition: all 0.15s;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.green-text:hover {
+  color: var(--primary-hover);
+}
+
+.word-prompt-items {
+  display: flex;
+}
+
+.article-sentence {
+  display: inline;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  transition: all 0.15s;
+  /* padding: 4.5px 0px; */
+}
+
+.similarity-score {
+  color: black;
+  font-size: 0.65em;
+  margin-left: 5px;
+}
+
+.error-message {
+  color: #ee1212;
+  font-family: Lato, serif;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 18px;
+  width: 100%;
+  display: block;
+}
+
+.success-message {
+  color: #00ff00;
+  font-family: Lato, serif;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 18px;
+}
+
+.color-scale {
+  width: 100%;
+  height: 12px;
+  display: flex;
+  justify-content: space-around;
+  padding: 2px;
+  margin-top: 6px;
+  margin-left: -1px;
+}
+
+.color-button {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid #737373;
+  margin-top: -2px;
+  margin: 8px 8px;
+  transition: all 0.1s;
+}
+
+.color-button-inside {
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.1s;
+  margin-top: -2px;
+  margin: 2px 2px;
+}
+
+.article-color-button {
+  background-color: #f8f8f8;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid #737373;
+  margin-top: -2px;
+  margin: 3px 4px;
+  transition: all 0.1s;
+}
+
+.article-color-button-inside {
+  background-color: #f8f8f8;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: -2px;
+  margin: 1px 1px;
+  transition: all 0.1s;
+}
+
+.recaptcha-container {
+  position: absolute;
+}
+
+#example1 {
+  transition: all 0.1s;
+}
+
+.processing-payment {
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  margin-top: 0;
+  margin-left: 0;
+  text-align: center;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.my-tooltip {
+  line-height: 20px;
+  font-size: 0.9em;
+  width: 210px;
+  text-align: center;
+  transition: all 0s;
+  z-index: 9000000;
+}
+
+.my-tooltip > h6 {
+  line-height: 0px;
+  margin-top: 18px;
+  font-size: 0.9em;
+  margin-bottom: 18px;
+  filter: brightness(100);
+  text-align: center;
+  transition: all 0s;
+}
+
+.p-lock {
+  margin-left: 1px;
+  width: 14px;
+  height: 14px;
+  opacity: 0.69;
+}
+
+.ap-lock {
+  width: 12px;
+  height: 12px;
+  opacity: 0.69;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.strength-list {
+  display: flex;
+  margin-top: 6px;
+  flex-direction: column;
+  margin-left: 4px;
+}
+
+.strength-list-row {
+  display: flex;
+  cursor: pointer;
+}
+
+.strength-tag {
+  color: rgb(86, 86, 86);
+  font-size: 0.8em;
+  line-height: 33px;
+  font-weight: bold;
+}
+
+.priority-divider {
+  border-top: 1px solid rgb(153, 153, 153);
+  width: 70%;
+  margin-left: 5%;
+  margin-top: 7px;
+  margin-bottom: 3px;
+  margin-left: 12%;
+  margin-right: auto;
+}
+
+.credit-cards {
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+.credit-cards img {
+  padding-right: 5px;
+}
+
+.paypal-logo-click {
+  cursor: pointer;
+}
+
+.article-copy-textarea {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  font-family: Lato, sans-serif;
+  font-size: 1em;
+}
+
+/* ::-webkit-scrollbar {
+  width: 5px;
+  cursor: default;
+}
+*/
+/* Track */
+/* ::-webkit-scrollbar-track {
+  border-radius: 10px;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: gray;
+} */
+
+/* Loader css */
+#overlay {
+  background: #000000;
+  /* color: #666666; */
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 5000;
+  top: 0;
+  left: 0;
+  float: left;
+  text-align: center;
+  padding-top: 25%;
+  opacity: 0.4;
+}
+
+.spinner {
+  margin: 0 auto;
+  height: 64px;
+  width: 64px;
+  animation: rotate 0.8s infinite linear;
+  border: 5px solid;
+  border-right-color: transparent;
+  border-radius: 50%;
+}
+
+.hotkey-command {
+  /* color: #8f8f8f !important; */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*================ new css code for new project ====================== */
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0px 12px;
+  width: 100%;
+}
+
+.extHeader {
+  /* background: #f1f7f3; */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.maximizeouticon {
+  width: 35px;
+  background: #828282;
+  height: 3px;
+  margin: auto;
+  border-radius: 5px;
+  margin-bottom: 11px;
+  display: block;
+}
+
+.kebabBtn {
+  padding: 6px 0px;
+  text-align: right;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  :root {
+    --new: #499557;
+    --new-hover: #41894e;
+    --new-secondary: #71b657;
+    --new-filter: saturate(150%) hue-rotate(25deg) brightness(92%);
+    --new-filter-hover: brightness(90%);
+    --new-banner: #6aab76;
+    --new-banner-hover: #65986f;
+
+    --traditional-filter: none;
+    --traditional-filter-hover: none;
+    --traditional-secondary: #8aad67;
+    --traditional: #849e63;
+    --traditional-hover: #687b50;
+    --traditional-banner: #99b576;
+    --traditional-banner-hover: #799655;
+
+    --primary: var(--new);
+    --secondary: #71b657;
+    --primary-hover: #41894e;
+    --image-filter: var(--new-filter);
+    --image-filter-hover: var(--new-filter-hover);
+    --banner: var(--new-banner);
+    --banner-hover: var(--new-banner-hover);
+
+    --default-font: Lato, sans-serif;
+  }
+
+  body {
+    text-rendering: optimizelegibility;
+    margin: 0 !important;
+  }
+
+  .manual-payment-container {
+    margin: auto;
+    margin-top: auto;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: 0px solid #499557;
+    border-radius: 6px;
+    margin-top: 20px;
+    min-height: 162px;
+  }
+
+  .processing-payment {
+    position: absolute;
+    background-color: #ccc;
+    opacity: 0.4;
+    height: 100%;
+    margin: auto;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .__react_component_tooltip.show {
+    opacity: 1;
+    transition: all 0s;
+  }
+
+  .green-text {
+    transition: all 0.15s;
+    color: #499557;
+    cursor: pointer;
+  }
+
+  .green-text:hover {
+    color: #41894e;
+  }
+}
+
+/* Forcing font everywhere to be open sans. This not working*/
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 14px;
+  overscroll-behavior-y: contain;
+  background: #fff;
+}
+
+/*
+using in commented code
+.nd-input-toast-container {
+  bottom: 25px;
+  width: calc(100% - 20px);
+  background: #2c2d33;
+  text-align: center;
+  font-family: monospace;
+  padding: 5px;
+  border-radius: 0px 0px 5px 5px;
+  margin: 2px 5px 5px 5px;
+  color: white;
+}*/
+
+.nd-word {
+  transition: all 0.05s;
+  position: relative;
+}
+
+/* #inputText[placeholder]:empty::before { // check
+  content: attr(placeholder);
+  color: #8497aa;
+} */
+
+#inputText[placeholder]:empty:focus::before {
+  content: '';
+}
+
+/* #inputBoxSummarizer[placeholder]:empty::before {
+  content: attr(placeholder);
+  color: #dcdcdc;
+} */
+
+#inputBoxSummarizer[placeholder]:empty:focus::before {
+  content: '';
+}
+
+/* ============= new design 2 css ================= */
+
+/* start of CSS for splitter */
+.Resizer {
+  background: #000;
+  opacity: 0.2;
+  z-index: 1;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+}
+
+.Pane {
+  display: flex;
+}
+
+/* .Resizer:hover {
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+} */
+
+.extensionMidContainerWithScroll .Pane2 {
+  height: 40%;
+}
+
+.Resizer.horizontal {
+  height: 3px;
+  margin: -2.5px 0 -3.5px 0;
+  cursor: row-resize;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.2;
+  min-height: 3px;
+}
+
+.Resizer.horizontal:hover {
+  background-color: #5f6368;
+}
+
+.Resizer.vertical {
+  width: 7px;
+  margin-right: -4px;
+  border-right: 4px solid rgba(255, 255, 255, 0);
+  cursor: col-resize;
+  border-bottom: 0px;
+}
+
+.Resizer.vertical:hover {
+  border-right: 4px solid rgba(0, 0, 0, 1);
+  width: 7px;
+}
+.Resizer.disabled {
+  cursor: not-allowed;
+}
+.Resizer.disabled:hover {
+  border-color: transparent;
+}
+
+/* =========== new design 3 =============== */
+
+.root-container {
+  flex-direction: column;
+  flex-wrap: unset !important;
+  display: flex;
+  min-height: calc(100vh - 280px);
+  /* background-color: #fff; */
+  padding-top: 25px !important;
+  padding-bottom: 30px !important;
+}
+
+.auth-root {
+  /* background-color: rgba(249, 250, 255); */
+  min-height: calc(100vh - 280px);
+}
+
+.mid-container {
+  max-width: 1300px !important;
+  width: 100%;
+}
+
+.page-header {
+  /* color: #4f4f4f; */
+  text-align: center;
+}
+
+.page-header:first-child,
+.page-header > p:first-child {
+  font-size: 28px !important;
+  text-align: center;
+}
+
+.home-container-gray {
+  /* background-color: #f1f1f1; */
+  min-height: unset;
+  padding-bottom: 40px !important;
+}
+
+.nd-mobile-container {
+  padding: 0px !important;
+  padding-top: 0px !important;
+  /* background: #fff; */
+}
+
+.nd-mobile-container-focused-content {
+  padding-top: 0px !important;
+}
+
+.home-container-premium {
+  min-height: calc(100vh - 60px);
+}
+
+.qbp-d-flex {
+  display: flex !important;
+}
+
+.qbp-pb50 {
+  padding-bottom: 50px !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+.px-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.b-shadow {
+  box-shadow: none !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+/* == start from here === */
+.qbp-pb10 {
+  padding-bottom: 10px !important;
+}
+
+.qbp-pt20 {
+  padding-top: 20px !important;
+}
+
+.qbp-pb20 {
+  padding-bottom: 20px !important;
+}
+
+.qbp-textCenter {
+  text-align: center !important;
+}
+
+.qbp-mx16 {
+  margin: 0 16px !important;
+}
+
+.qbp-pb20 {
+  padding-bottom: 20px !important;
+}
+
+.qbp-py20 {
+  padding: 20px 0 !important;
+}
+
+.qbp-textYellow {
+  color: #ffb800;
+}
+
+.qbp-semibold {
+  font-weight: 600 !important;
+}
+
+.qbp-settings-item {
+  display: flex;
+  padding: 25px 0 15px !important;
+  justify-content: space-between;
+  border-bottom: 1px solid #8f8f8f;
+  color: #000;
+  align-items: center;
+}
+
+.card-pad {
+  padding: 10px 0 1px 0 !important;
+}
+
+.qbp-settings-item:last-child {
+  border-bottom: 0;
+}
+
+.details-subtitle {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: normal;
+  font-size: 14px !important;
+}
+
+.settting-span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details-subtitle-highlight {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.6);
+  /* font-weight: bold !important; */
+  font-size: 14px !important;
+}
+
+.premium-container {
+  padding-top: 0 !important;
+}
+
+/*************************** Login/Sign up popup css ******************************/
+
+.auth-container {
+  max-width: 480px;
+  width: 100%;
+
+  /* background-color: white; */
+  position: relative;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 480px) {
+  .auth-root {
+    padding: 0px 15px;
+  }
+}
+
+.auth-container-top-border {
+  height: 5px;
+  width: 100%;
+  background: rgb(33, 150, 83);
+  background: linear-gradient(90deg, rgba(33, 150, 83, 1) 11.34%, rgba(41, 113, 254, 1) 100%);
+}
+
+.social-auth-btn {
+  margin: auto !important;
+  position: relative;
+}
+
+.social-auth-btn img {
+  position: absolute;
+  left: 15px;
+  height: 16px;
+}
+
+.auth-btn {
+  line-height: 32px !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  height: 45px;
+}
+
+.qbp-useraccount-text {
+  color: #8a8a8a;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+.qbp-reg-input {
+  border: 1px solid #a6a5a5;
+  color: #5b5b5b;
+  width: 100%;
+  display: block;
+  float: unset;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 14px;
+  transition: ease all 0.3s;
+  height: 45px;
+}
+
+.qbp-reg-input:focus {
+  box-shadow: 0px 0 16px 0 rgba(0, 0, 0, 0.4);
+  outline: none !important;
+}
+
+.qbp-error-message {
+  font-size: 11px;
+  position: absolute;
+  bottom: 9px;
+  left: 0;
+  color: #ee1212;
+}
+
+.qbp-error-message1 {
+  font-size: 11px;
+  padding-bottom: 10px;
+  color: #ee1212;
+}
+
+.qbp-success-message {
+  color: #27b027;
+  font-size: 13px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.qbp-prem-input {
+  font-weight: normal;
+  font-size: 14px;
+  color: #151515 !important;
+  background-color: #fff;
+  width: 100%;
+  font-family: arial;
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+  height: 40px;
+  padding: 0px 15px;
+  outline: 0;
+}
+
+.login-drawer {
+  display: flex;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.style01 {
+  font-size: 1.5em;
+  font-weight: 600;
+  /* color: #fff; */
+}
+
+.linkstyle01 {
+  color: #fff;
+  padding: 0 5px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.flipperTextContainer {
+  padding: 0px 32px 0px 15px;
+  /* border-left: 1px solid #e0e0e0;*/
+  /* color: rgb(0, 0, 0, 0.75); */
+}
+
+.flipperTextContainer:hover {
+  /* color: black; */
+}
+
+.top-tabs .MuiButtonBase-root {
+  /* display: inline-block !important; */
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.payment-status {
+  font-weight: 600;
+  color: #a1a197;
+}
+
+/**************************Survey popup css stuff **********************/
+.survey-modal {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  display: flex;
+  min-width: 100vw;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  z-index: 1201;
+}
+
+.survey-container {
+  background-color: white;
+  max-width: 650px;
+  padding: 10px 15px 15px !important;
+  margin: auto !important;
+  position: relative !important;
+}
+
+@media (max-width: 350px) {
+  .survey-container {
+    margin: auto 12 !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .survey-container {
+    max-width: 350px;
+  }
+}
+
+.survey-header {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+}
+
+.survey-close-btn {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+}
+
+.survey-question {
+  font-size: 13px !important;
+  padding-bottom: 10px;
+}
+
+.so-checkbox-label {
+  font-size: 12px !important;
+  display: flex;
+  padding-bottom: 8px;
+  color: #5f6368;
+}
+
+.survey-submit-btn {
+  color: #2971fe !important;
+  font-size: 14px !important;
+  float: right;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.unsubscribe-reason {
+  width: 100%;
+}
+
+.steps {
+  font-weight: bold !important;
+}
+
+.feedback-textarea {
+  width: 100%;
+  height: 91px;
+  padding: 5px;
+  font-size: 0.87rem;
+  font-family: 'Open Sans', sans-serif;
+}
+/* .prompt-container {
+  background-color: #fff;
+  position: absolute;
+  top: 23px;
+  z-index: 1150;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  padding-bottom: 0;
+  transition: all 0.15s;
+
+  box-shadow: 0px 1px 1px #999;
+} */
+
+/* ============= do not remove this css =============*/
+.grecaptcha-badge {
+  visibility: hidden;
+}
+/* =========== do not remove css inside comment area ========== */
+
+/*================== responsive codes ============== */
+
+@media (max-width: 960px) {
+  .terms-main-container ol {
+    margin: 10px 0px;
+    padding-left: 20px;
+    word-break: break-word;
+  }
+
+  .terms-main-container ol li {
+    margin: 10px 0px;
+    padding-left: 20px;
+    word-break: break-word;
+  }
+}
+
+.CardElementHolder {
+  border: 1px #c4c4c4 solid;
+  border-radius: 3px;
+  margin-top: 8px;
+  padding: 11px 15px 10px;
+}
+
+.CardField-child {
+  background: #f00 !important;
+}
+
+/* ======= new global css start ============= */
+p {
+  font-size: 16px;
+}
+a {
+  color: #2971fe;
+}
+
+.btn-link {
+  /* color: #2971fe !important; */
+  cursor: pointer;
+}
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.pageTitle {
+  font-size: 30px;
+  margin: 30px 15px 15px;
+  line-height: 41px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.terms-main-container ol li::marker {
+  font-size: 16px;
+  font-weight: bold;
+}
+.terms-main-container ol li p b {
+  font-weight: 600;
+}
+
+/* .CbHosted--focus {
+  border: 1px solid #499557 !important;
+} */
+
+.chargebee-overwrites::placeholder {
+  color: #a0a0a0 !important;
+}
+
+.shadow-container {
+  height: 6px;
+  width: 100%;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.fix-error {
+  background: rgba(73, 149, 87, 0.2) !important;
+}
+
+#RESEARCH_EDITOR:before {
+  color: #828282;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin: 0 auto;
+}
+
+#RESEARCH_EDITOR * {
+  max-width: 672px;
+  white-space: pre-wrap !important;
+}
+/* .grammarbot-popover-root {
+  pointer-events: none !important;
+} */
+
+.page-wrapper {
+  padding: var(--main-editor__mce-content-body--padding-y) var(--main-editor__mce-content-body--padding-x);
+}
+
+#grammarbot:before {
+  color: #828282;
+  /* margin-left: 137px;
+  margin-right: 138px; */
+}
+
+#wordCounterBot:before {
+  color: #828282;
+}
+
+#grammarbot a {
+  color: inherit; /*To add dark mode compatibility */
+}
+
+.grammarbot-correction-card-ignore-button {
+  padding-top: 13px;
+}
+.grammarbot-status-icons {
+  font-size: 40px !important;
+}
+
+.correction-card-wrapper {
+  margin-top: -10px;
+  padding-top: 8px;
+}
+
+.grammarbot-fix-all {
+  position: absolute !important;
+  top: -48px !important;
+  right: 30% !important;
+  z-index: 1 !important;
+}
+
+.notepadeditor:before {
+  color: #828282;
+  margin-left: 0px;
+}
+
+.notepadeditor {
+  width: 100%;
+  font-size: 13px !important;
+  margin-top: 12px !important;
+}
+
+.notepadeditor > p {
+  margin-block-start: 0em !important;
+  font-size: 13px !important;
+}
+
+#main-editor-parent {
+  /* ! THESE VARIABLES ARE BEING USED IN SCRIPTS */
+  --main-editor__mce-content-body--padding-x: 90px;
+  --main-editor__mce-content-body--padding-y: 90px;
+}
+
+#main-editor > .mce-content-body {
+  /* padding: var(--main-editor__mce-content-body--padding-y, 36px)
+    var(--main-editor__mce-content-body--padding-x, 36px); */
+  min-height: calc(100vh - 190px);
+
+  /* color: #252525; */
+}
+
+#rough-editor {
+  width: 100%;
+  overflow: auto;
+}
+
+#rough-editor > .mce-content-body {
+  height: calc(100vh - 122px);
+  width: 100%;
+  margin: 14px;
+  color: #252525;
+  overflow: auto;
+}
+
+#main-editor > .mce-content-body {
+  word-break: break-word !important;
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+}
+
+#main-editor > .mce-content-body > p,
+#main-editor > .mce-content-body > .page-wrapper > p {
+  font-size: 14px !important;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+sup,
+sub {
+  white-space: pre-wrap !important;
+}
+
+.tox-tinymce {
+  border: none !important;
+  position: absolute !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+#main-editor .tox-editor-header {
+  border: none !important;
+  border-bottom: 1px solid !important;
+}
+
+#toolbar-location .tox-editor-header {
+  border: none !important;
+  top: 20px !important;
+  left: 14px !important;
+}
+
+#toolbar-location .tox-toolbar {
+  background: none !important;
+}
+
+.tox .tox-toolbar-overlord {
+  background: none !important;
+}
+
+.tox-notification {
+  display: none !important;
+}
+
+.tox .tox-tbtn svg {
+  fill: #666666 !important;
+}
+
+.tox .tox-tbtn--disabled svg,
+.tox .tox-tbtn--disabled:hover svg,
+.tox .tox-tbtn:disabled svg,
+.tox .tox-tbtn:disabled:hover svg {
+  fill: rgba(34, 47, 62, 0.5) !important;
+}
+
+.tox .tox-tbtn__select-label {
+  color: #666666 !important;
+}
+
+.tox .tox-autocompleter {
+  max-width: 35em !important;
+}
+
+.tox .tox-autocompleter .tox-menu {
+  max-width: 35em !important;
+}
+
+.tox.tox-tinymce--toolbar-sticky-on .tox-editor-header {
+  box-shadow: none !important;
+}
+
+.tox-editor-header {
+  border-right: none !important;
+}
+
+.tox-toolbar__primary {
+  background: none !important;
+  /* box-shadow: 0px 1px 8px 0px rgba(31, 31, 31, 0.15) !important; */
+  /* border-bottom: 1px solid #ccc !important; */
+  /* border-top: 1px solid #ccc !important; */
+  /* padding-left: 15px !important; */
+  width: 100% !important;
+}
+
+.tox-toolbar__group {
+  border: none !important;
+  /* box-shadow: 2px -1px 3px -2px rgba(31, 31, 31, 0.15) !important; */
+}
+
+.tox-toolbar__group::after {
+  content: url('/images/coWriter/line.svg');
+}
+
+.tox-toolbar__group:last-child:after {
+  content: '';
+}
+
+.tox .tox-menu.tox-collection.tox-collection--list {
+  width: max-content;
+}
+
+.tox-toolbar__primary > .tox-toolbar__group:last-child {
+  box-shadow: none !important;
+}
+
+.quillSettingSpace {
+  -webkit-transition: all 0.1s ease-in-out !important;
+  -moz-transition: all 0.1s ease-in-out !important;
+  -o-transition: all 0.1s ease-in-out !important;
+  transition: all 0.1s ease-in-out !important;
+  margin-top: 26px !important;
+}
+
+.tox-tbtn,
+.tox-tbtn__select-label {
+  cursor: pointer !important;
+}
+
+.tox-tbtn--disabled {
+  cursor: not-allowed !important;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 26px 16px 0px 20px;
+  }
+}
+
+.showFadeEffect {
+  --animation-time: 2s;
+  animation: opacity-fade var(--animation-time) !important;
+}
+
+.dataRefHidden {
+  display: none !important;
+}
+
+.pulseLoader {
+  content: ' ';
+  width: 90px;
+  height: 12px;
+  display: inline-block;
+  background-color: #ccc;
+  animation: new-animation 1s infinite;
+  vertical-align: text-bottom;
+  border-radius: 3px;
+  margin-left: -5px;
+}
+
+@keyframes new-animation {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+}
+
+@keyframes opacity-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#doc-title {
+  padding: 46px 0px 13px 137px;
+  width: 70%;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.mce-content-body[data-mce-placeholder]:not(.mce-visualblocks)::before {
+  content: attr(placeholder);
+  pointer-events: none;
+  display: block; /* For Firefox */
+  color: #828282 !important;
+}
+
+[contenteditable='true']:empty:before {
+  content: attr(placeholder);
+  pointer-events: none;
+  display: block; /* For Firefox */
+  color: #828282 !important;
+}
+
+.red-underline {
+  border-bottom: #fb3f4b 2px solid;
+  transition: all 0.3s ease-in-out;
+}
+
+.red-underline:hover {
+  background-color: #fb3f4c14;
+  border-radius: 2px;
+}
+
+.red-underline.error-hovered {
+  background-color: #fb3f4c14;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.blue-underline {
+  border-bottom: #0067c5 2px solid;
+  transition: all 0.3s ease-in-out;
+}
+
+.blue-underline:hover {
+  background-color: #0067c514;
+  border-radius: 2px;
+}
+
+.blue-underline.error-hovered {
+  background-color: #0067c514;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.magenta-underline {
+  border-bottom: #8051ff 2px solid;
+  transition: all 0.3s ease-in-out;
+}
+
+.magenta-underline:hover {
+  background-color: #8051ff24;
+  border-radius: 2px;
+}
+
+.magenta-underline.error-hovered {
+  background-color: #8051ff24;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+#fixed-toolbar-container .tox-tinymce-inline .tox-editor-header {
+  border: none !important;
+}
+/*
+  Citation Marker style
+*/
+#main-editor .CitationMarkerStyle {
+  padding: 3px;
+}
+
+.CitationMarkerStyle_Burst {
+  background-color: #ffefde !important;
+  color: orange !important;
+}
+
+.reduce-margin-block-end {
+  margin-block-end: -1em !important;
+}
+
+#grammar-checker pre {
+  white-space: pre-wrap;
+}
+
+#word-counter pre {
+  white-space: pre-wrap;
+}
+
+.sound-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sound-wave {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sound-wave .audioOnWithSpeech {
+  display: block;
+  width: 5px;
+  margin-right: 1px;
+  height: 90px;
+  background: #499557;
+  animation: sound 0ms -800ms linear infinite alternate;
+  transition: height 0.8s;
+}
+
+.sound-wave .audioOff {
+  display: block;
+  width: 5px;
+  margin-right: 0px;
+  height: 12px;
+  background: #9f9f9f;
+}
+
+.sound-wave .audioOnWithoutSpeech {
+  display: block;
+  width: 5px;
+  margin-right: 0px;
+  height: 12px;
+  background: #499557;
+}
+
+@keyframes sound {
+  0% {
+    opacity: 0.35;
+    height: 6px;
+  }
+  100% {
+    opacity: 1;
+    height: 46px;
+  }
+}
+
+@keyframes sound2 {
+  0% {
+    opacity: 0.35;
+    height: 6px;
+  }
+  100% {
+    opacity: 1;
+    height: 120px;
+  }
+}
+
+.audioOnWithSpeech:nth-child(1) {
+  height: 2px;
+  animation-duration: 274ms;
+}
+
+.audioOnWithSpeech:nth-child(2) {
+  height: 10px;
+  animation-duration: 233ms;
+}
+
+.audioOnWithSpeech:nth-child(3) {
+  height: 18px;
+  animation-duration: 207ms;
+}
+
+.audioOnWithSpeech:nth-child(4) {
+  height: 26px;
+  animation-duration: 258ms;
+}
+
+.audioOnWithSpeech:nth-child(5) {
+  height: 30px;
+  animation-duration: 200ms;
+}
+
+.audioOnWithSpeech:nth-child(6) {
+  height: 32px;
+  animation-duration: 227ms;
+}
+
+.audioOnWithSpeech:nth-child(7) {
+  height: 34px;
+  animation-duration: 241ms;
+}
+
+.audioOnWithSpeech:nth-child(8) {
+  height: 36px;
+  animation-duration: 219ms;
+}
+
+.audioOnWithSpeech:nth-child(9) {
+  height: 40px;
+  animation-duration: 287ms;
+}
+
+.audioOnWithSpeech:nth-child(10) {
+  height: 46px;
+  animation-duration: 242ms;
+}
+
+.audioOnWithSpeech:nth-child(11) {
+  height: 2px;
+  animation-duration: 274ms;
+}
+
+.audioOnWithSpeech:nth-child(12) {
+  height: 10px;
+  animation-duration: 233ms;
+}
+
+.audioOnWithSpeech:nth-child(13) {
+  height: 18px;
+  animation-duration: 207ms;
+}
+
+.audioOnWithSpeech:nth-child(14) {
+  height: 26px;
+  animation-duration: 258ms;
+}
+
+.audioOnWithSpeech:nth-child(15) {
+  height: 30px;
+  animation-duration: 200ms;
+}
+
+.audioOnWithSpeech:nth-child(16) {
+  height: 32px;
+  animation-duration: 227ms;
+}
+
+.audioOnWithSpeech:nth-child(17) {
+  height: 34px;
+  animation-duration: 241ms;
+}
+
+.audioOnWithSpeech:nth-child(18) {
+  height: 36px;
+  animation-duration: 219ms;
+}
+
+.audioOnWithSpeech:nth-child(19) {
+  height: 40px;
+  animation-duration: 287ms;
+}
+
+.audioOnWithSpeech:nth-child(20) {
+  height: 46px;
+  animation-duration: 242ms;
+}
+
+.audioOnWithSpeech:nth-child(21) {
+  height: 2px;
+  animation-duration: 274ms;
+}
+
+.audioOnWithSpeech:nth-child(22) {
+  height: 10px;
+  animation-duration: 233ms;
+}
+
+.audioOnWithSpeech:nth-child(23) {
+  height: 18px;
+  animation-duration: 207ms;
+}
+
+.audioOnWithSpeech:nth-child(24) {
+  height: 26px;
+  animation-duration: 258ms;
+}
+
+.audioOnWithSpeech:nth-child(25) {
+  height: 30px;
+  animation-duration: 200ms;
+}
+
+.audioOnWithSpeech:nth-child(26) {
+  height: 32px;
+  animation-duration: 227ms;
+}
+
+.audioOnWithSpeech:nth-child(27) {
+  height: 34px;
+  animation-duration: 241ms;
+}
+
+.mce-content-body [contentEditable='false'][data-mce-selected] {
+  cursor: not-allowed;
+  outline: 3px solid #f1f1f1 !important;
+}
+
+.display--none {
+  display: none;
+}
+
+/* [title='Font sizes'] {
+  width: 65px !important;
+} */
+
+.wave .dot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  /* margin-right: 1px; */
+  background: #499557;
+  animation: wave 1s linear infinite;
+}
+.wave .dot:nth-child(1) {
+  animation-delay: -0.9s;
+}
+.wave .dot:nth-child(2) {
+  animation-delay: -0.7s;
+}
+.wave .dot:nth-child(3) {
+  animation-delay: -0.5s;
+}
+
+@keyframes wave {
+  0%,
+  60%,
+  100% {
+    transform: initial;
+  }
+  30% {
+    transform: translateY(-4px);
+  }
+}
+
+    button {
+      font-size: 12px;
+    }
+    p { 
+      color: black; 
+      font-size: 12px; 
+    }
+    input {
+      color: black; 
+      font-size: 12px; 
+      background: white;
+    }
+    textarea {
+      color: black; 
+      font-size: 12px; 
+    }
+    checkbox {
+      background: white;
+    }
+    </style><style><style data-emotion="extn-css" data-s=""></style></style></template></quillbot-extension-root></html>
