@@ -24,7 +24,8 @@ The repository contains a ProcessMaker/WFMS workflow export, digital form defini
 ├── evidence/
 │   └── wfms-page/            # Saved WFMS designer page evidence
 ├── results/
-│   └── figures/              # Screenshots and cartographic outputs
+│   ├── figures/              # Screenshots and cartographic outputs
+│   └── form-previews/        # Visual previews generated from JSON form definitions
 └── README.md
 ```
 
@@ -36,12 +37,51 @@ The repository contains a ProcessMaker/WFMS workflow export, digital form defini
 - `docs/workflow-summary.md`: concise explanation of the workflow logic.
 - `evidence/wfms-page/wfms-designer-page.html`: saved evidence of the WFMS/ProcessMaker designer environment.
 - `results/figures/`: selected visual outputs showing the data model, web GIS interface, parcel claims, popup attributes, and title certificate output.
+- `results/form-previews/`: visual previews of the main workflow forms generated from the ProcessMaker/WFMS JSON definitions.
 
 ## Workflow Logic
 
 The workflow begins when an applicant submits a land dispute complaint or lease application. The intake form captures identity, contact, parcel, title, dispute, and supporting-document information. A map panel allows the user to interact with spatial layers, identify a lot or area of interest, and pass selected map attributes into workflow form fields.
 
 The back-office stages then support survey review, administrative recommendation, accountancy checks, record updates, and final outcome documentation.
+
+## Form Previews
+
+### Land Dispute Complaint Intake
+
+![Land dispute complaint form](results/form-previews/land-dispute-complaint-form.svg)
+
+This form captures applicant details, area-of-interest information, parcel/title references, dispute type, ownership information, legal details, supporting documents, and applicant declaration.
+
+### Land Dispute Survey Review
+
+![Land dispute survey form](results/form-previews/land-dispute-survey-form.svg)
+
+This form supports the survey review stage by connecting request information with mapped lot selection, lot size, district information, and survey coordinates.
+
+### Recommendation Stage
+
+![Recommendation form](results/form-previews/land-dispute-recommendation-form.svg)
+
+This form represents the administrative review stage where the case can be assessed and a recommendation recorded before final decision-making.
+
+### Outcome Stage
+
+![Outcome form](results/form-previews/land-dispute-outcome-form.svg)
+
+This form records the final decision or result of the land dispute workflow, supporting case closure and record keeping.
+
+### Lease Application Intake
+
+![Land lease application form](results/form-previews/land-lease-application-form.svg)
+
+This form captures lease request information, including applicant details, area of interest, land-use type, requested size, and description.
+
+### Lease Lot Allocation
+
+![Lease lot allocation form](results/form-previews/lease-lot-allocation-form.svg)
+
+This form supports allocation of a selected lot by recording selected parcel information, size, district, and related allocation details.
 
 ## GIS and Cloud Integration
 
