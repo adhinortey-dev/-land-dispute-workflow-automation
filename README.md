@@ -23,6 +23,8 @@ The repository contains a ProcessMaker/WFMS workflow export, digital form defini
 ├── docs/                     # Workflow report and assignment documentation
 ├── evidence/
 │   └── wfms-page/            # Saved WFMS designer page evidence
+├── results/
+│   └── figures/              # Screenshots and cartographic outputs
 └── README.md
 ```
 
@@ -33,6 +35,7 @@ The repository contains a ProcessMaker/WFMS workflow export, digital form defini
 - `forms/lease/`: JSON form definitions for lease application, analysis, survey, and lot allocation.
 - `docs/workflow-summary.md`: concise explanation of the workflow logic.
 - `evidence/wfms-page/wfms-designer-page.html`: saved evidence of the WFMS/ProcessMaker designer environment.
+- `results/figures/`: selected visual outputs showing the data model, web GIS interface, parcel claims, popup attributes, and title certificate output.
 
 ## Workflow Logic
 
@@ -51,6 +54,38 @@ This demonstrates how land administration workflows can combine:
 - Parcel/lot selection
 - Spatially enabled decision support
 - Structured back-office processing
+
+## Figures and Interpretation
+
+### LADM-Inspired Cadastral Data Model
+
+![LADM cadastral data model](results/figures/ladm-cadastral-data-model.png)
+
+This model organizes the land administration data around parties, rights/restrictions/responsibilities, and spatial units. It shows how parcel records, ownership rights, land-use categories, and registration responsibilities can be structured before being used in a workflow or GIS database.
+
+### Cloud GIS Parcel View
+
+![QGIS Cloud parcel view](results/figures/qgis-cloud-parcel-view.png)
+
+This figure shows the cadastral layers viewed through a cloud GIS interface. It demonstrates how parcel boundaries and related features can be made accessible through the web for review by users who may not work directly inside desktop GIS software.
+
+### Parcel Claims and Boundary Review
+
+![Parcel claims overview](results/figures/parcel-claims-overview.png)
+
+This map shows new land claims over existing parcel geometry. The overlap and boundary relationships are important because they support the dispute workflow: a case officer or survey reviewer can identify where claims intersect, conflict, or require further investigation.
+
+### Interactive Parcel Attribute Popup
+
+![Interactive parcel popup](results/figures/interactive-parcel-popup.png)
+
+The popup demonstrates how parcel/title attributes can be inspected interactively. Attributes such as parcel number, right type, land-use type, dispute status, survey date, area, and perimeter support evidence-based review during the workflow.
+
+### Certificate of Title Output
+
+![Certificate title output](results/figures/certificate-title-output.png)
+
+The certificate output shows the final cartographic product generated from the cadastral data. It connects the workflow result to an official-style title record, combining parcel geometry, ownership/right information, and map layout elements.
 
 ## Tools and Technologies
 
